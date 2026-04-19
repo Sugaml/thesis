@@ -1,0 +1,287 @@
+
+<style>
+:root { --accent: #1D9E75; --accent-light: #E1F5EE; --accent-dark: #0F6E56; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); }
+.qwrap { padding: 1rem 0; max-width: 760px; }
+.progress-bar-outer { height: 6px; background: var(--color-border-tertiary); border-radius: 3px; margin-bottom: 1.5rem; }
+.progress-bar-inner { height: 6px; background: var(--accent); border-radius: 3px; transition: width 0.4s ease; width: 0%; }
+.progress-label { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 6px; }
+.section-header { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: 10px 14px; margin: 1.5rem 0 1rem; }
+.section-header h2 { font-size: 14px; font-weight: 500; color: var(--accent-dark); }
+.section-header p { font-size: 12px; color: var(--accent-dark); opacity: 0.8; margin-top: 2px; }
+.section-num { display: inline-block; background: var(--accent); color: white; border-radius: 50%; width: 22px; height: 22px; font-size: 11px; font-weight: 500; text-align: center; line-height: 22px; margin-right: 8px; }
+.q-block { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 10px; }
+.q-text { font-size: 14px; color: var(--color-text-primary); font-weight: 500; margin-bottom: 10px; line-height: 1.5; }
+.q-num { font-size: 12px; color: var(--color-text-secondary); margin-right: 4px; }
+.scale-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.scale-label { font-size: 11px; color: var(--color-text-secondary); }
+.scale-label.left { margin-right: 4px; }
+.scale-label.right { margin-left: 4px; }
+.scale-options { display: flex; gap: 4px; flex: 1; justify-content: space-between; min-width: 200px; }
+.scale-opt { display: flex; flex-direction: column; align-items: center; gap: 3px; cursor: pointer; }
+.scale-opt input[type=radio] { display: none; }
+.scale-dot { width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid var(--color-border-secondary); background: var(--color-background-secondary); display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--color-text-secondary); transition: all 0.15s; cursor: pointer; }
+.scale-opt:hover .scale-dot { border-color: var(--accent); color: var(--accent-dark); background: var(--accent-light); }
+.scale-opt.selected .scale-dot { background: var(--accent); border-color: var(--accent); color: white; font-weight: 500; }
+.yn-row { display: flex; gap: 8px; }
+.yn-btn { padding: 6px 16px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-secondary); background: var(--color-background-secondary); font-size: 13px; cursor: pointer; color: var(--color-text-primary); transition: all 0.15s; }
+.yn-btn:hover { border-color: var(--accent); color: var(--accent-dark); }
+.yn-btn.selected { background: var(--accent); border-color: var(--accent); color: white; }
+.demo-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.demo-btn { padding: 5px 12px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-secondary); background: var(--color-background-secondary); font-size: 12px; cursor: pointer; color: var(--color-text-primary); transition: all 0.15s; }
+.demo-btn:hover { border-color: var(--accent); }
+.demo-btn.selected { background: var(--accent-light); border-color: var(--accent); color: var(--accent-dark); }
+.divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+.badge { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 999px; font-weight: 500; margin-left: 8px; vertical-align: middle; }
+.badge-demo { background: #E6F1FB; color: #185FA5; }
+.badge-cka { background: var(--accent-light); color: var(--accent-dark); }
+.badge-db { background: #FAEEDA; color: #854F0B; }
+.badge-rmp { background: #FAECE7; color: #993C1D; }
+.badge-rel { background: #FBEAF0; color: #993556; }
+.instruction { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px; font-style: italic; }
+.summary-card { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-top: 1rem; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-top: 10px; }
+.summary-item { background: var(--color-background-primary); border-radius: var(--border-radius-md); padding: 10px; text-align: center; }
+.summary-item .val { font-size: 22px; font-weight: 500; color: var(--accent); }
+.summary-item .lbl { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+</style>
+
+<div class="qwrap">
+<h2 style="font-size:17px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px;">Research Questionnaire</h2>
+<p style="font-size:13px;color:var(--color-text-secondary);margin-bottom:1rem;">Cybersecurity Awareness, Digital Behaviour & Risk Mitigation — University Students in Nepal</p>
+
+<div class="progress-label" id="prog-label">0 of 40 questions answered</div>
+<div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar"></div></div>
+
+<div class="section-header">
+  <h2><span class="section-num">A</span>Section A: Demographic Information<span class="badge badge-demo">Demographics</span></h2>
+  <p>Please select the option that best describes you.</p>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A1.</span> Gender</div>
+  <div class="demo-row" data-q="a1">
+    <button class="demo-btn" onclick="selectDemo(this,'a1')">Male</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a1')">Female</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a1')">Other</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a1')">Prefer not to say</button>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A2.</span> Age group</div>
+  <div class="demo-row" data-q="a2">
+    <button class="demo-btn" onclick="selectDemo(this,'a2')">18–21</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a2')">22–25</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a2')">26–29</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a2')">30 or above</button>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A3.</span> Academic background</div>
+  <div class="demo-row" data-q="a3">
+    <button class="demo-btn" onclick="selectDemo(this,'a3')">IT / Computer Science</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a3')">Engineering (non-IT)</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a3')">Business / Management</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a3')">Social Sciences / Humanities</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a3')">Other</button>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A4.</span> Year of study</div>
+  <div class="demo-row" data-q="a4">
+    <button class="demo-btn" onclick="selectDemo(this,'a4')">1st year</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a4')">2nd year</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a4')">3rd year</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a4')">4th year</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a4')">Postgraduate</button>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A5.</span> Primary device used daily</div>
+  <div class="demo-row" data-q="a5">
+    <button class="demo-btn" onclick="selectDemo(this,'a5')">Smartphone</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a5')">Laptop</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a5')">Desktop</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a5')">Tablet</button>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-text"><span class="q-num">A6.</span> Self-rated computer/internet skill level</div>
+  <div class="demo-row" data-q="a6">
+    <button class="demo-btn" onclick="selectDemo(this,'a6')">Beginner</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a6')">Intermediate</button>
+    <button class="demo-btn" onclick="selectDemo(this,'a6')">Advanced</button>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section-header">
+  <h2><span class="section-num">B</span>Section B: Cybersecurity Awareness<span class="badge badge-cka">Independent variable</span></h2>
+  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+</div>
+
+<p class="instruction">B1–B4: Cybersecurity Knowledge</p>
+<div id="sec-b"></div>
+
+<hr class="divider">
+
+<div class="section-header">
+  <h2><span class="section-num">C</span>Section C: Digital Behaviour<span class="badge badge-db">Dependent variable</span></h2>
+  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+</div>
+<div id="sec-c"></div>
+
+<hr class="divider">
+
+<div class="section-header">
+  <h2><span class="section-num">D</span>Section D: Risk Mitigation Practices<span class="badge badge-rmp">Dependent variable</span></h2>
+  <p>Rate each statement: 1 = Never → 5 = Always</p>
+</div>
+<div id="sec-d"></div>
+
+<hr class="divider">
+
+<div class="section-header">
+  <h2><span class="section-num">E</span>Section E: Awareness–Behaviour Relationship<span class="badge badge-rel">Objective 4</span></h2>
+  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+</div>
+<div id="sec-e"></div>
+
+<div class="summary-card" id="summary-card">
+  <p style="font-size:13px;font-weight:500;color:var(--color-text-primary);">Response summary</p>
+  <div class="summary-grid">
+    <div class="summary-item"><div class="val" id="s-total">0</div><div class="lbl">answered</div></div>
+    <div class="summary-item"><div class="val" id="s-b">—</div><div class="lbl">avg. CKA score</div></div>
+    <div class="summary-item"><div class="val" id="s-c">—</div><div class="lbl">avg. Digital Behaviour</div></div>
+    <div class="summary-item"><div class="val" id="s-d">—</div><div class="lbl">avg. Risk Mitigation</div></div>
+  </div>
+</div>
+
+</div>
+
+<script>
+const answers = {};
+const TOTAL_Q = 40;
+
+const secB = [
+  ["B1","I am aware of common cyber threats such as phishing, malware, and ransomware."],
+  ["B2","I know how to create a strong and secure password."],
+  ["B3","I am aware of the risks of using public Wi-Fi networks."],
+  ["B4","I know what steps to take if I become a victim of a cyberattack."],
+  ["B5","I am familiar with data privacy laws and policies in Nepal (e.g., Electronic Transactions Act)."],
+  ["B6","I can identify a suspicious email or social engineering attempt."],
+  ["B7","I understand the importance of keeping software and applications updated."],
+  ["B8","I am aware that sharing personal information on social media can pose security risks."],
+];
+
+const secC = [
+  ["C1","I use the same password for multiple online accounts."],
+  ["C2","I click on links or attachments in emails without verifying their source."],
+  ["C3","I share personal information (location, phone number, ID) on social media platforms."],
+  ["C4","I use public Wi-Fi without any additional security measures."],
+  ["C5","I download apps or software from unofficial or unverified sources."],
+  ["C6","I read the privacy policy before agreeing to terms on a new platform."],
+  ["C7","I log out of my accounts after using shared or public devices."],
+  ["C8","I check whether a website uses HTTPS before entering sensitive information."],
+  ["C9","I report suspicious activities or messages to relevant authorities or IT support."],
+  ["C10","I regularly review the permissions granted to apps on my device."],
+];
+
+const secD = [
+  ["D1","I use a different and strong password for each of my important accounts."],
+  ["D2","I enable two-factor authentication (2FA) on my accounts."],
+  ["D3","I keep my operating system and applications up to date."],
+  ["D4","I use antivirus or anti-malware software on my devices."],
+  ["D5","I back up my important files and data regularly."],
+  ["D6","I use a VPN when accessing the internet on public networks."],
+  ["D7","I verify the authenticity of emails, links, or messages before responding."],
+  ["D8","I change my passwords periodically even if not prompted."],
+  ["D9","I avoid accessing sensitive accounts (banking, email) over public Wi-Fi."],
+  ["D10","I take immediate action (change passwords, report) if I suspect my account has been compromised."],
+];
+
+const secE = [
+  ["E1","My knowledge of cybersecurity threats directly influences how I behave online."],
+  ["E2","I feel more confident practicing safe online behaviour when I know about potential risks."],
+  ["E3","Despite knowing about cyber risks, I sometimes still engage in unsafe online practices."],
+  ["E4","My academic background (IT or non-IT) has shaped my cybersecurity awareness."],
+  ["E5","I believe that cybersecurity awareness training at university would improve my online behaviour."],
+  ["E6","I think IT students are more cyber-aware than non-IT students."],
+];
+
+function buildScale(id, text, section) {
+  return `<div class="q-block" id="qb-${id}">
+    <div class="q-text"><span class="q-num">${id}.</span> ${text}</div>
+    <div class="scale-row">
+      <span class="scale-label left">Strongly<br>Disagree</span>
+      <div class="scale-options">
+        ${[1,2,3,4,5].map(n => `<label class="scale-opt" id="opt-${id}-${n}">
+          <input type="radio" name="${id}" value="${n}" onchange="recordAnswer('${id}',${n},'${section}')">
+          <div class="scale-dot">${n}</div>
+        </label>`).join('')}
+      </div>
+      <span class="scale-label right">Strongly<br>Agree</span>
+    </div>
+  </div>`;
+}
+
+function buildScaleNever(id, text, section) {
+  const labels = ['Never','Rarely','Sometimes','Often','Always'];
+  return `<div class="q-block" id="qb-${id}">
+    <div class="q-text"><span class="q-num">${id}.</span> ${text}</div>
+    <div class="scale-row">
+      <div class="scale-options" style="width:100%">
+        ${[1,2,3,4,5].map((n,i) => `<label class="scale-opt" id="opt-${id}-${n}" title="${labels[i]}">
+          <input type="radio" name="${id}" value="${n}" onchange="recordAnswer('${id}',${n},'${section}')">
+          <div class="scale-dot" style="width:36px;height:36px;font-size:10px;">${labels[i]}</div>
+        </label>`).join('')}
+      </div>
+    </div>
+  </div>`;
+}
+
+document.getElementById('sec-b').innerHTML = secB.map(([id,t]) => buildScale(id,t,'b')).join('');
+document.getElementById('sec-c').innerHTML = secC.map(([id,t]) => buildScale(id,t,'c')).join('');
+document.getElementById('sec-d').innerHTML = secD.map(([id,t]) => buildScaleNever(id,t,'d')).join('');
+document.getElementById('sec-e').innerHTML = secE.map(([id,t]) => buildScale(id,t,'e')).join('');
+
+function selectDemo(btn, qid) {
+  const row = btn.parentElement;
+  row.querySelectorAll('.demo-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  answers['demo_'+qid] = btn.textContent;
+  updateProgress();
+}
+
+function recordAnswer(id, val, section) {
+  answers[id] = { val, section };
+  document.querySelectorAll(`label[id^="opt-${id}-"]`).forEach(l => l.classList.remove('selected'));
+  document.getElementById(`opt-${id}-${val}`).classList.add('selected');
+  updateProgress();
+}
+
+function updateProgress() {
+  const demoCount = ['a1','a2','a3','a4','a5','a6'].filter(k => answers['demo_'+k]).length;
+  const scaleKeys = [...secB,...secC,...secD,...secE].map(([id]) => id).filter(k => answers[k]);
+  const total = demoCount + scaleKeys.length;
+  document.getElementById('s-total').textContent = total;
+  document.getElementById('prog-label').textContent = `${total} of ${TOTAL_Q} questions answered`;
+  document.getElementById('progress-bar').style.width = Math.round((total/TOTAL_Q)*100)+'%';
+
+  const avg = (keys) => {
+    const vals = keys.filter(k => answers[k]).map(k => answers[k].val);
+    if(!vals.length) return '—';
+    return (vals.reduce((a,b)=>a+b,0)/vals.length).toFixed(1);
+  };
+  document.getElementById('s-b').textContent = avg(secB.map(([id])=>id));
+  document.getElementById('s-c').textContent = avg(secC.map(([id])=>id));
+  document.getElementById('s-d').textContent = avg(secD.map(([id])=>id));
+}
+</script>
