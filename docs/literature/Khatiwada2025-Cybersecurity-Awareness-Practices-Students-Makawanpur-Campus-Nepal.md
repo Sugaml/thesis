@@ -11,7 +11,9 @@ Unable to extract readable abstract text automatically from the PDF; manual read
 ## Evidence Mapped to Research Title
 _Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
 
-- Similarly, Khatiwada (2025) conducted a quantitative survey among 148 students at Makawanpur Multiple Campus, Hetauda, Nepal, revealing that the majority lacked sufficient awareness of safe practices including password management, device protection, and secure online behaviour; more than one-third had experienced a cyber incident, yet most expressed low confidence in handling such threats.
+- Khatiwada (2025) conducted a quantitative survey among 148 students at Makawanpur Multiple Campus, Hetauda, Nepal.
+- The study reports low awareness of safe practices, including password management, device protection, and secure online behaviour.
+- More than one-third had experienced a cyber incident, and most reported low confidence in handling such threats.
 - These practices typically include the installation and use of antivirus software and firewalls, adoption of strong and unique passwords, enabling multi-factor authentication, keeping software up to date, using Virtual Private Networks (VPNs), practising safe browsing (e.g., verifying HTTPS connections and URL authenticity), and protecting personal data through encryption or careful sharing behaviour (Ulven & Wangen, 2021; Khatiwada, 2025).
 - University students are particularly at risk because they generate and share large amounts of personal data online through academic platforms, social media, and e-commerce sites (Adhikari et al., 2026; Khatiwada, 2025).
 - PMT is therefore directly applicable to understanding why Nepalese university students who are broadly aware of cyber threats may nonetheless fail to implement risk mitigation practices (Adhikari et al., 2026; Khatiwada, 2025).
