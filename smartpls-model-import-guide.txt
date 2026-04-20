@@ -1,0 +1,25 @@
+SmartPLS import file: smartpls-model-import-template.csv
+
+How to use:
+1) Open the CSV file and replace the example row with your real survey responses.
+2) Keep all values numeric.
+3) Save as CSV (UTF-8), then import into SmartPLS (Data View -> Import CSV).
+
+Column coding:
+- respondent_id: unique ID per respondent (text allowed)
+- A1 Gender: 1=Male, 2=Female, 3=Other, 4=Prefer not to say
+- A2 Age: 1=Under 20, 2=20-25, 3=26 and above
+- A3 Academic Major: 1=IT/Computer Science, 2=Non-IT
+- A4 Academic Year: 1=1st, 2=2nd, 3=3rd, 4=4th, 5=Post-graduate
+- A5 Computer Skill: 1=Beginner, 2=Intermediate, 3=Advanced
+- A6 Daily Internet Usage: 1=<2 hrs, 2=2-5 hrs, 3=6-10 hrs, 4=>10 hrs
+- A7 Primary Device: 1=Smartphone, 2=Laptop, 3=Tablet, 4=Desktop
+
+Likert blocks:
+- B1-B10 (Cybersecurity Awareness): 1=Strongly Disagree ... 5=Strongly Agree
+- C1-C12 (Digital Behaviour risky statements): 1=Strongly Disagree ... 5=Strongly Agree
+- D1-D12 (Risk Mitigation): 1=Never, 2=Rarely, 3=Sometimes, 4=Often, 5=Always
+- E1-E9 (Influencing Factors & Attitudes): 1=Strongly Disagree ... 5=Strongly Agree
+
+Note for model setup:
+- If you model "safe digital behaviour", reverse-code C1-C12 before analysis (new_value = 6 - original_value).
