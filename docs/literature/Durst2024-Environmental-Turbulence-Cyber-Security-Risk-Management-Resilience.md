@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - No direct citation sentence for this paper was found in `Chapter2-Literature-Review.md`; use this paper as contextual/supporting literature and add manual synthesis after full-depth reading.
 

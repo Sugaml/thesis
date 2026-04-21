@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Bhandari (2025) reported that among Nepalese university students, only 46.9% showed awareness of Nepal's cybersecurity legal framework, even though 67.2% were familiar with the concept of "hacking," highlighting a critical disconnect between basic terminology and actionable knowledge.
 - Bhandari (2025) noted that Nepalese university students show significant gaps in understanding the legal frameworks available for risk mitigation, including the Electronic Transactions Act and the National Cyber Security Policy 2023.

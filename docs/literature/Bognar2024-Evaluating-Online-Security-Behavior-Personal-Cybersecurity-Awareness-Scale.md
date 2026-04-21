@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Similarly, Bognar and Bottyán (2024) developed and validated a Personal Cybersecurity Awareness Scale for university students using Exploratory and Confirmatory Factor Analyses (EFA and CFA), identifying five empirically distinct dimensions of cybersecurity behaviour.
 - Conversely, universities that create a culture of security consciousness may elevate subjective norms and thereby improve compliance (Bognar & Bottyán, 2024).

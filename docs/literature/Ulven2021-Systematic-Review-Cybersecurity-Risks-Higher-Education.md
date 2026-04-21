@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - # CHAPTER II: LITERATURE REVIEW AND THEORETICAL FRAMEWORK  ## 2.1 Conceptual Review  ### 2.1.1 Cybersecurity Awareness  Cybersecurity awareness refers to the degree to which individuals understand the nature of cyber threats, recognise the importance of protecting digital assets, and possess the knowledge necessary to adopt secure online practices (Ulven & Wangen, 2021).
 - Universities store large volumes of sensitive personal data and cutting-edge research, making them attractive targets for cybercriminals, state-sponsored actors, and hacktivists (Ulven & Wangen, 2021).

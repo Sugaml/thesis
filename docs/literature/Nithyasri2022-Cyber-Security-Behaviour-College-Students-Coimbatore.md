@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Nithyasri and Nithya Sumathi (2022), examining 300 college students in Coimbatore, India, using factor analysis and confirmatory factor analysis, identified three underlying factors of cyber security behaviour: cyber knowledge, security implications, and cyber threats.
 

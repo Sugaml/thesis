@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Several scholars have observed that although young people are classified as "digital natives," their technical fluency does not automatically translate into cybersecurity competence (Kovačević et al., 2020; Mai & Tick, 2021).
 - In the cybersecurity literature, digital behaviour is operationalised through specific security-relevant practices: password management, social media usage patterns, responses to suspicious online content, software update habits, and the extent to which users verify the authenticity of digital communications before acting on them (Mai & Tick, 2021; Jangid, 2025).

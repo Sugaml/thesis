@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - University students are particularly at risk because they generate and share large amounts of personal data online through academic platforms, social media, and e-commerce sites (Adhikari et al., 2026; Khatiwada, 2025).
 - PMT is therefore directly applicable to understanding why Nepalese university students who are broadly aware of cyber threats may nonetheless fail to implement risk mitigation practices (Adhikari et al., 2026; Khatiwada, 2025).

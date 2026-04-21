@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Gupta (2024) observed that in the Nepalese context, inadequate cybersecurity awareness contributes to increased vulnerability to cyber-attacks, data breaches, and societal and economic harm.
 - Nepal is no exception: Gupta (2024) documented that ransomware, phishing scams, and data breaches are among the most commonly reported cyber threats in the Nepalese digital environment, exacerbated by low public awareness and weak institutional defences.
