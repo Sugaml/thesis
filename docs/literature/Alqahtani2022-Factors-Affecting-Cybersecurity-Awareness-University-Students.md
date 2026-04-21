@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Alqahtani (2022) identified password security, browser security, and social media behaviour as the three primary determinants of cybersecurity awareness among university students (N = 450), with password security emerging as the strongest predictor (β = 0.147, p = 0.0001).
 - ### 2.3.3 Relationship between Digital Behaviour and Risk Mitigation  The relationship between digital behaviour and risk mitigation practices is bidirectional and mutually reinforcing, but the dominant causal direction in the literature runs from safer digital behaviour to stronger risk mitigation (Jangid, 2025; Alqahtani, 2022).

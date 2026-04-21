@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - ---  ## 2.3 Empirical Review  ### 2.3.1 Relationship between Cybersecurity Awareness and Digital Behaviour  The relationship between cybersecurity awareness and digital behaviour is one of the most extensively studied questions in the information security literature, and the findings are remarkably consistent: awareness is a necessary but not sufficient condition for secure digital behaviour (Kovačević et al., 2020; Anwar et al., 2023; Elrayah & Jamil, 2023).
 

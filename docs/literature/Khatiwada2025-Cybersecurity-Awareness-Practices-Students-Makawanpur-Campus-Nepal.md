@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Khatiwada (2025) conducted a quantitative survey among 148 students at Makawanpur Multiple Campus, Hetauda, Nepal.
 - The study reports low awareness of safe practices, including password management, device protection, and secure online behaviour.

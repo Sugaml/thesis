@@ -2,7 +2,7 @@
 
 Paper-wise evidence preparation for the thesis topic.
 
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 | Paper note | Author key | Year | Evidence dimensions | Source PDF |
 |---|---|---:|---|---|

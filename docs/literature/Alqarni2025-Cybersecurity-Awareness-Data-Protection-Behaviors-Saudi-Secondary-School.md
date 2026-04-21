@@ -9,7 +9,7 @@
 Unable to extract readable abstract text automatically from the PDF; manual reading recommended for this paper.
 
 ## Evidence Mapped to Research Title
-_Research title: Cybersecurity awareness, digital behaviour, and risk mitigation practices among university students in Nepal (Pokhara University)._
+_Research title: Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal_
 
 - Alqarni (2025), in a large-sample study of 1,980 Saudi secondary school students, found that cybersecurity awareness positively predicted data protection behaviours both directly (β = 0.38, p < 0.001) and indirectly through cyber threat perception (indirect β = 0.17, p < 0.001).
 - It has since been widely applied in information security research to explain why individuals adopt—or fail to adopt—protective cybersecurity behaviours (Ulven & Wangen, 2021; Alqarni, 2025).
