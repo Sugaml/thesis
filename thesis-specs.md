@@ -191,7 +191,7 @@ All three divisions must be present and in this order:
 - [ ] Research instrument (questionnaire; construct sources; pilot test if any)
 - [ ] Operationalisation / measurement of variables
 - [ ] Data collection procedure
-- [ ] Data analysis plan (PLS-SEM in SmartPLS 4; t-test/ANOVA in SPSS 26)
+- [ ] Data analysis plan (PLS-SEM in SmartPLS 4; t-test/ANOVA in Python with SciPy and Pingouin)
 - [ ] Reliability and validity (Cronbach's α, AVE, CR, discriminant validity)
 - [ ] Ethical considerations
 - [ ] Reference to questionnaire in Appendix

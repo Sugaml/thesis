@@ -2,7 +2,7 @@
 
 ## 4.1 Introduction
 
-This chapter presents the empirical findings of the study in accordance with the research objectives and hypotheses formulated in Chapter I. The analysis proceeds in five stages: (1) demographic profiling of the 200 respondents; (2) descriptive statistical analysis of the three main constructs—Cybersecurity Awareness (CA), Digital Behaviour (DB), and Risk Mitigation Practices (RMP); (3) reliability assessment of the measurement scales; (4) correlation and regression analyses to test Hypotheses H1 and H2; and (5) independent-samples t-tests to test the comparative Hypotheses H3, H4, and H5. All analyses were conducted using IBM SPSS Statistics 26 and SmartPLS 4. Results are presented with appropriate tables followed by interpretive commentary. Statistical significance is set at α = 0.05 throughout.
+This chapter presents the empirical findings of the study in accordance with the research objectives and hypotheses formulated in Chapter I. The analysis proceeds in five stages: (1) demographic profiling of the 200 respondents; (2) descriptive statistical analysis of the three main constructs—Cybersecurity Awareness (CA), Digital Behaviour (DB), and Risk Mitigation Practices (RMP); (3) reliability assessment of the measurement scales; (4) correlation and regression analyses to test Hypotheses H1 and H2; and (5) independent-samples t-tests to test the comparative Hypotheses H3, H4, and H5. All analyses were conducted using Python (pandas, NumPy, SciPy, Pingouin, and statsmodels) and SmartPLS 4. Results are presented with appropriate tables followed by interpretive commentary. Statistical significance is set at α = 0.05 throughout.
 
 ---
 
