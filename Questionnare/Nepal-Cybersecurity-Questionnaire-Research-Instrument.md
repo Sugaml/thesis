@@ -55,16 +55,14 @@ These items facilitate the comparison between IT and non-IT students and other d
 
 To assess students' understanding of basic concepts, threats, and legal protections.
 
-1. I am aware of the general Information Security and Malware concepts. (Ahamed et al., 2024)
-2. I know that using the 'https' protocol is more secure than using 'http' in a URL address. (Ahamed et al., 2026; Nithyasri, 2022)
-3. I am familiar with the potential types of viruses and malwares that can affect my digital devices. (Nithyasri, 2022)
-4. I understand that sending sensitive information over the internet without encryption could lead to a personal data breach. (Alqarni, 2025; Ahamed et al., 2024)
-5. I can identify the latest online scams, such as phishing and social engineering attempts. (Nair, 2025; Mai et al., 2021)
-6. I am aware of the legal remedies and policies provided in Nepal’s Electronic Transactions Act (ETA 2063). (Bhandari, 2025)
-7. I believe that cybersecurity is a shared responsibility between individuals and the institution. (Balasirisha, 2025)
-8. I know how to check the security features or privacy settings of the mobile applications I use. (Alharbi & Tassaddiq, 2021)
-9. I am aware of the consequences of using copyright-protected work online without permission. (Elrayah & Jamil, 2023)
-10. I understand that regular software and antivirus updates are necessary to fix security vulnerabilities. (Alqahtani, 2022; Santelices, 2025)
+1. I know that 'https' is more secure than 'http' in a website address. (Ahamed et al., 2026; Nithyasri, 2022)
+2. I am aware of common online threats such as viruses, malware, and phishing. (Ahamed et al., 2024; Nithyasri, 2022)
+3. I understand that sharing sensitive information online without encryption can lead to a data breach. (Alqarni, 2025; Ahamed et al., 2024)
+4. I can identify suspicious emails or phishing attempts. (Nair, 2025; Mai et al., 2021)
+5. I am aware of Nepal’s Electronic Transactions Act (ETA 2063) and the legal protections it provides. (Bhandari, 2025)
+6. I know how to check privacy and security settings in the apps and websites I use. (Alharbi & Tassaddiq, 2021)
+7. I understand that regular software and antivirus updates help protect my devices from cyber threats. (Alqahtani, 2022; Santelices, 2025)
+8. I believe cybersecurity is a shared responsibility between individuals and institutions. (Balasirisha, 2025)
 
 ---
 
@@ -72,18 +70,14 @@ To assess students' understanding of basic concepts, threats, and legal protecti
 
 To study habits, online lifestyles, and potentially risky behaviors.
 
-1. It is acceptable to post personal pictures publicly on social media platforms. (Ahamed et al., 2026; Dhungana et al., 2023)
-2. I am comfortable sharing my current location publicly on social media. (Ahamed et al., 2026; Nithyasri, 2022)
-3. I often use the same password across multiple online accounts and platforms for convenience. (Jangid, 2025; Bognar, 2024)
-4. I am willing to open email or message attachments received from strangers if the subject line is interesting. (Mai et al., 2021; Bognar, 2024)
-5. I frequently check my emails or conduct personal work while connected to public Wi-Fi without using a VPN. (Adhikari et al., 2026; Gwenhure, 2025)
-6. I often download free software, music, or films from unverified third-party websites. (Dhungana et al., 2023; Bognar, 2024)
-7. I am willing to click on pop-up advertisements that appear while I am browsing the internet. (Dhungana et al., 2023; Nair, 2025)
-8. I tend to reuse passwords that I have used for previous accounts. (Ahamed et al., 2024)
-9. I am comfortable accepting friend or chat requests from people I do not know on social networks. (Bognar, 2024; Elrayah & Jamil, 2023)
-10. I find it easy to share my login credentials (like passwords) with trusted friends or family. (Mai et al., 2021; Alqahtani, 2022)
-11. I tend to leave my mobile devices or laptop logged in and unattended in public study spaces. (Bognar, 2024)
-12. I communicate with strangers using a webcam or video chat apps even if I haven't verified their identity. (Bognar, 2024)
+1. I post personal photos or information publicly on social media. (Ahamed et al., 2026; Dhungana et al., 2023)
+2. I use the same password for multiple online accounts. (Jangid, 2025; Bognar, 2024)
+3. I open links or attachments from unknown senders if they look interesting. (Mai et al., 2021; Bognar, 2024)
+4. I use public Wi-Fi for personal or academic work without a VPN. (Adhikari et al., 2026; Gwenhure, 2025)
+5. I download software or media from unverified third-party websites. (Dhungana et al., 2023; Bognar, 2024)
+6. I click on pop-up advertisements while browsing the internet. (Dhungana et al., 2023; Nair, 2025)
+7. I accept friend or chat requests from people I do not know online. (Bognar, 2024; Elrayah & Jamil, 2023)
+8. I leave my device logged in and unattended in public places. (Bognar, 2024)
 
 ---
 
@@ -91,18 +85,14 @@ To study habits, online lifestyles, and potentially risky behaviors.
 
 To understand the protective measures students actively implement to minimize risk.
 
-1. I regularly check for and install updates for the antivirus software on my devices. (Ahamed et al., 2024; Nair, 2025)
-2. I verify the connection security (looking for the padlock icon) on web pages before entering personal information. (Bognar, 2024; Nithyasri, 2022)
-3. I apply security patches and operating system updates to my devices as soon as they are available. (Mai et al., 2021; Adhikari et al., 2026)
-4. I utilize two-factor authentication (2FA) for my essential accounts (e.g., email, banking). (Nair, 2025; Adhikari et al., 2026)
-5. I always log out of my social media and email accounts when I finish my work on any device. (Bognar, 2024; Ngamcharoen et al., 2024)
-6. I periodically change the passwords I use for my different online accounts. (Bognar, 2024; Nair, 2025)
-7. I regularly back up my important data to a secure external drive or cloud service. (Adhikari et al., 2026; Elrayah & Jamil, 2023)
-8. I make it a habit to delete my web browser history regularly to find or remove suspicious activity. (Bognar, 2024; Alqahtani, 2022)
-9. I avoid installing web browser extensions from third-party or untrusted websites. (Alqahtani, 2022; Alharbi & Tassaddiq, 2021)
-10. I prefer to conduct internet banking or online shopping only using my personal computer rather than public ones. (Bognar, 2024; Ngamcharoen et al., 2024)
-11. I use complex passwords that include a mix of uppercase letters, numbers, and special symbols. (Dhungana et al., 2023; Ngamcharoen et al., 2024)
-12. I verify the identity of a sender before opening a link or an attachment in an email. (Mai et al., 2021; Ngamcharoen et al., 2024)
+1. I regularly update the antivirus software on my devices. (Ahamed et al., 2024; Nair, 2025)
+2. I check for the padlock icon before entering personal information on websites. (Bognar, 2024; Nithyasri, 2022)
+3. I use two-factor authentication (2FA) for important accounts such as email or banking. (Nair, 2025; Adhikari et al., 2026)
+4. I always log out of accounts when I finish using a shared or public device. (Bognar, 2024; Ngamcharoen et al., 2024)
+5. I regularly change my passwords for online accounts. (Bognar, 2024; Nair, 2025)
+6. I back up important files to an external drive or cloud storage. (Adhikari et al., 2026; Elrayah & Jamil, 2023)
+7. I use strong passwords with a mix of letters, numbers, and special characters. (Dhungana et al., 2023; Ngamcharoen et al., 2024)
+8. I verify the sender's identity before clicking on links or opening attachments in emails. (Mai et al., 2021; Ngamcharoen et al., 2024)
 
 ---
 
