@@ -1,5 +1,34 @@
 # Nepal Cybersecurity Questionnaire (Research Instrument)
 
+---
+
+Dear Respondent,
+
+I am an MBA IT student at the School of Management, Tribhuvan University, conducting a Graduate Research Project (GRP) as part of the partial fulfillment of the requirements for the MBA IT degree at SOMTU.
+
+This research aims to understand the feasibility and interrelationship of cybersecurity awareness, digital behavior, and risk mitigation practices among university students. Please be assured that your responses will remain strictly confidential and will be used only for academic purposes in summarized form. Your time and input are deeply appreciated.
+
+**Estimated Time:** 8–10 minutes
+
+**5-Point Likert Scale used throughout this questionnaire:**
+
+| Scale | Meaning |
+|-------|---------|
+| 1 | Strongly Disagree |
+| 2 | Disagree |
+| 3 | Neutral |
+| 4 | Agree |
+| 5 | Strongly Agree |
+
+Thank you for your valuable participation. Your honest answers will help produce better research findings and more accurate outcomes.
+
+Sincerely,
+**Babulal Tamang**
+MBA IT Scholar, School of Management, TU
+📧 tamangsugam09@gmail.com
+
+---
+
 ## Section 0: Demographic Profile (Objective 5 Support)
 
 These items facilitate the comparison between IT and non-IT students and other demographic variables.

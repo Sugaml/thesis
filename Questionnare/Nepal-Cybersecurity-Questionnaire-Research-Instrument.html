@@ -52,6 +52,15 @@ body { font-family: var(--font-sans); }
 .pdf-btn-primary { background: var(--accent); border-color: var(--accent); color: white; }
 .pdf-btn-primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: white; }
 .pdf-hint { font-size: 11px; color: var(--color-text-secondary); margin-top: 10px; line-height: 1.45; }
+.cover-letter { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; }
+.cover-letter p { font-size: 13px; color: var(--color-text-primary); line-height: 1.65; margin-bottom: 0.75rem; }
+.cover-letter p:last-child { margin-bottom: 0; }
+.cover-letter .cover-title { font-size: 13px; font-weight: 600; color: var(--color-text-primary); margin-bottom: 0.75rem; }
+.cover-letter .cover-sig { font-size: 13px; color: var(--color-text-primary); line-height: 1.6; margin-top: 0.75rem; }
+.cover-letter .cover-sig strong { display: block; }
+.likert-table { width: 100%; border-collapse: collapse; margin: 0.6rem 0 0.75rem; font-size: 12px; }
+.likert-table th { background: var(--accent); color: white; padding: 5px 10px; text-align: center; font-weight: 500; }
+.likert-table td { border: 0.5px solid var(--color-border-tertiary); padding: 5px 10px; text-align: center; color: var(--color-text-primary); background: var(--color-background-primary); }
 /* New page at each numbered section (1–4) for print & html2pdf */
 .pdf-section-start {
   page-break-before: always;
@@ -76,6 +85,33 @@ body { font-family: var(--font-sans); }
     <button type="button" class="pdf-btn" onclick="exportDownloadPdf()">Download PDF file</button>
   </div>
   <p class="pdf-hint">Use <strong>Save as PDF (print dialog)</strong> and pick <strong>Save as PDF</strong> or <strong>Microsoft Print to PDF</strong> as the destination. <strong>Download PDF file</strong> saves a copy directly (requires an internet connection the first time).</p>
+</div>
+
+<div class="cover-letter">
+  <p class="cover-title">Dear Respondent,</p>
+  <p>I am an MBA IT student at the School of Management, Tribhuvan University, conducting a Graduate Research Project (GRP) as part of the partial fulfillment of the requirements for the MBA IT degree at SOMTU.</p>
+  <p>This research aims to understand the feasibility and interrelationship of cybersecurity awareness, digital behavior, and risk mitigation practices among university students. Please be assured that your responses will remain strictly confidential and will be used only for academic purposes in summarized form. Your time and input are deeply appreciated.</p>
+  <p><strong>Estimated Time:</strong> 8–10 minutes</p>
+  <p><strong>5-Point Likert Scale used throughout this questionnaire:</strong></p>
+  <table class="likert-table">
+    <thead>
+      <tr><th>Scale</th><th>Meaning</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Strongly Disagree</td></tr>
+      <tr><td>2</td><td>Disagree</td></tr>
+      <tr><td>3</td><td>Neutral</td></tr>
+      <tr><td>4</td><td>Agree</td></tr>
+      <tr><td>5</td><td>Strongly Agree</td></tr>
+    </tbody>
+  </table>
+  <p>Thank you for your valuable participation. Your honest answers will help produce better research findings and more accurate outcomes.</p>
+  <div class="cover-sig">
+    Sincerely,<br>
+    <strong>Babulal Tamang</strong>
+    MBA IT Scholar, School of Management, TU<br>
+    ✉ tamangsugam09@gmail.com
+  </div>
 </div>
 
 <div class="progress-label" id="prog-label">0 of 50 questions answered</div>
