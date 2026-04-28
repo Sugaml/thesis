@@ -80,6 +80,17 @@ These items facilitate the comparison between IT and non-IT students and other d
 
 ---
 
+## Preliminary Question
+
+**A8. Have you heard about cybersecurity?**
+
+- [ ] Yes
+- [ ] No
+
+> *Regardless of your answer, you are encouraged to complete the questionnaire based on your general knowledge and experience.*
+
+---
+
 ## Section 1: Cybersecurity Awareness & Knowledge (Objective 1)
 
 To assess students' understanding of basic concepts, threats, and legal protections.
