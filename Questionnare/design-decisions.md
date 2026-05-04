@@ -1,5 +1,7 @@
 # Questionnaire tooling — design notes
 
+**Item–construct–source traceability:** See `questionnare-database.md` (master table for supervisor defence and thesis appendix).
+
 ## Google Apps Script form (`index.js`)
 
 - **Source of truth:** Item wording matches `Nepal-Cybersecurity-Questionnaire-Research-Instrument.html`.
