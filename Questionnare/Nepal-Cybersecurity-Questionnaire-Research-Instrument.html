@@ -91,7 +91,7 @@ body { font-family: var(--font-sans); }
   <p class="cover-title">Dear Respondent,</p>
   <p>I am an MBA IT student at the School of Management, Tribhuvan University, conducting a Graduate Research Project (GRP) as part of the partial fulfillment of the requirements for the MBA IT degree at SOMTU.</p>
   <p>This research aims to understand the feasibility and interrelationship of cybersecurity awareness, digital behavior, and risk mitigation practices among university students. Please be assured that your responses will remain strictly confidential and will be used only for academic purposes in summarized form. Your time and input are deeply appreciated.</p>
-  <p><strong>Estimated Time:</strong> 8–10 minutes</p>
+  <p><strong>Estimated Time:</strong> about 10–12 minutes</p>
   <p><strong>5-Point Likert Scale used throughout this questionnaire:</strong></p>
   <table class="likert-table">
     <thead>
@@ -105,6 +105,7 @@ body { font-family: var(--font-sans); }
       <tr><td>5</td><td>Strongly Agree</td></tr>
     </tbody>
   </table>
+  <p><strong>Section 3 only</strong> uses how often you do something: 1 = Never to 5 = Always.</p>
   <p>Thank you for your valuable participation. Your honest answers will help produce better research findings and more accurate outcomes.</p>
   <div class="cover-sig">
     Sincerely,<br>
@@ -114,12 +115,12 @@ body { font-family: var(--font-sans); }
   </div>
 </div>
 
-<div class="progress-label" id="prog-label">0 of 50 questions answered</div>
+<div class="progress-label" id="prog-label">0 of 33 questions answered</div>
 <div class="progress-bar-outer"><div class="progress-bar-inner" id="progress-bar"></div></div>
 
 <div class="section-header">
   <h2><span class="section-num">0</span>Section 0: Demographic Profile<span class="badge badge-demo">Objective 5 support</span></h2>
-  <p>Please select the option that best describes you.</p>
+  <p>Pick one answer per line.</p>
 </div>
 
 <div class="q-block">
@@ -161,31 +162,13 @@ body { font-family: var(--font-sans); }
 </div>
 
 <div class="q-block">
-  <div class="q-text"><span class="q-num">A5.</span> Perceived Computer Skill Level</div>
+  <div class="q-text"><span class="q-num">A5.</span> How do you go online? <span style="font-weight:400;color:var(--color-text-secondary);">(Select all that apply)</span></div>
+  <div class="instruction">Tap each device you use; you can choose more than one.</div>
   <div class="demo-row" data-q="a5">
-    <button class="demo-btn" onclick="selectDemo(this,'a5')">Beginner</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a5')">Intermediate</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a5')">Advanced</button>
-  </div>
-</div>
-
-<div class="q-block">
-  <div class="q-text"><span class="q-num">A6.</span> Average Daily Internet Usage</div>
-  <div class="demo-row" data-q="a6">
-    <button class="demo-btn" onclick="selectDemo(this,'a6')">&lt; 2 hrs</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a6')">2–5 hrs</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a6')">6–10 hrs</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a6')">&gt; 10 hrs</button>
-  </div>
-</div>
-
-<div class="q-block">
-  <div class="q-text"><span class="q-num">A7.</span> Primary Access Device</div>
-  <div class="demo-row" data-q="a7">
-    <button class="demo-btn" onclick="selectDemo(this,'a7')">Smartphone</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a7')">Laptop</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a7')">Tablet</button>
-    <button class="demo-btn" onclick="selectDemo(this,'a7')">Desktop</button>
+    <button type="button" class="demo-btn" onclick="toggleDemoMulti(this,'a5')">Smartphone</button>
+    <button type="button" class="demo-btn" onclick="toggleDemoMulti(this,'a5')">Laptop</button>
+    <button type="button" class="demo-btn" onclick="toggleDemoMulti(this,'a5')">Tablet</button>
+    <button type="button" class="demo-btn" onclick="toggleDemoMulti(this,'a5')">Desktop</button>
   </div>
 </div>
 
@@ -193,7 +176,7 @@ body { font-family: var(--font-sans); }
 
 <div class="section-header pdf-section-start">
   <h2><span class="section-num">1</span>Section 1: Cybersecurity Awareness &amp; Knowledge<span class="badge badge-cka">Objective 1</span></h2>
-  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+  <p>1 = Strongly Disagree … 5 = Strongly Agree</p>
 </div>
 
 <div id="sec-b"></div>
@@ -202,7 +185,7 @@ body { font-family: var(--font-sans); }
 
 <div class="section-header pdf-section-start">
   <h2><span class="section-num">2</span>Section 2: Digital Behaviour Patterns<span class="badge badge-db">Objective 2</span></h2>
-  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+  <p>1 = Strongly Disagree … 5 = Strongly Agree</p>
 </div>
 <div id="sec-c"></div>
 
@@ -210,7 +193,7 @@ body { font-family: var(--font-sans); }
 
 <div class="section-header pdf-section-start">
   <h2><span class="section-num">3</span>Section 3: Risk Mitigation Practices<span class="badge badge-rmp">Objective 3</span></h2>
-  <p>Rate each statement: 1 = Never → 5 = Always</p>
+  <p>1 = Never … 5 = Always</p>
 </div>
 <div id="sec-d"></div>
 
@@ -218,7 +201,7 @@ body { font-family: var(--font-sans); }
 
 <div class="section-header pdf-section-start">
   <h2><span class="section-num">4</span>Section 4: Influencing Factors &amp; Attitudes<span class="badge badge-rel">Objective 4</span></h2>
-  <p>Rate each statement: 1 = Strongly Disagree → 5 = Strongly Agree</p>
+  <p>1 = Strongly Disagree … 5 = Strongly Agree</p>
 </div>
 <div id="sec-e"></div>
 
@@ -237,51 +220,46 @@ body { font-family: var(--font-sans); }
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
 const answers = {};
-const TOTAL_Q = 40;
+const TOTAL_Q = 33;
 
 const secB = [
-  ["B1","I know that &#39;https&#39; is more secure than &#39;http&#39; in a website address. (Ahamed et al., 2026; Nithyasri, 2022)"],
-  ["B2","I am aware of common online threats such as viruses, malware, and phishing. (Ahamed et al., 2024; Nithyasri, 2022)"],
-  ["B3","I understand that sharing sensitive information online without encryption can lead to a data breach. (Alqarni, 2025; Ahamed et al., 2024)"],
-  ["B4","I can identify suspicious emails or phishing attempts. (Nair, 2025; Mai et al., 2021)"],
-  ["B5","I am aware of Nepal&#39;s Electronic Transactions Act (ETA 2063) and the legal protections it provides. (Bhandari, 2025)"],
-  ["B6","I know how to check privacy and security settings in the apps and websites I use. (Alharbi &amp; Tassaddiq, 2021)"],
-  ["B7","I understand that regular software and antivirus updates help protect my devices from cyber threats. (Alqahtani, 2022; Santelices, 2025)"],
-  ["B8","I believe cybersecurity is a shared responsibility between individuals and institutions. (Balasirisha, 2025)"],
+  ["B1","I know my phone or computer can get viruses or harmful software. (Nithyasri, 2022)"],
+  ["B2","I know phishing is dangerous. (Nithyasri, 2022)"],
+  ["B3","I am aware that &#39;https&#39; is safer than &#39;http&#39; in a website address. (Nithyasri, 2022)"],
+  ["B4","I know Nepal has an online safety law (Electronic Transactions Act). (Bhandari, 2025)"],
+  ["B5","I am concerned about using open public Wi-Fi. (Nithyasri, 2022; Adhikari et al., 2026)"],
+  ["B6","I know that careless use of the internet can put my personal information at risk. (Ahamed et al., 2024)"],
+  ["B7","I give high priority to using my phone or computer securely. (Nithyasri, 2022)"],
 ];
 
 const secC = [
-  ["C1","I post personal photos or information publicly on social media. (Ahamed et al., 2026; Dhungana et al., 2023)"],
-  ["C2","I use the same password for multiple online accounts. (Jangid, 2025; Bognar, 2024)"],
-  ["C3","I open links or attachments from unknown senders if they look interesting. (Mai et al., 2021; Bognar, 2024)"],
-  ["C4","I use public Wi-Fi for personal or academic work without a VPN. (Adhikari et al., 2026; Gwenhure, 2025)"],
-  ["C5","I download software or media from unverified third-party websites. (Dhungana et al., 2023; Bognar, 2024)"],
-  ["C6","I click on pop-up advertisements while browsing the internet. (Dhungana et al., 2023; Nair, 2025)"],
-  ["C7","I accept friend or chat requests from people I do not know online. (Bognar, 2024; Elrayah &amp; Jamil, 2023)"],
-  ["C8","I leave my device logged in and unattended in public places. (Bognar, 2024)"],
+  ["C1","I use one password for many accounts. (Bognar, 2024)"],
+  ["C2","I open links in emails from people I do not know. (Bognar, 2024)"],
+  ["C3","I use public Wi-Fi for banking or private work without extra protection. (Adhikari et al., 2026)"],
+  ["C4","I download from websites I do not trust. (Dhungana et al., 2023)"],
+  ["C5","I post my location or personal photos openly on social media. (Dhungana et al., 2023)"],
+  ["C6","I click pop-up ads while browsing. (Dhungana et al., 2023; Nair, 2025)"],
+  ["C7","I accept friend or chat requests from strangers online. (Bognar, 2024)"],
 ];
 
 const secD = [
-  ["D1","I regularly update the antivirus software on my devices. (Ahamed et al., 2024; Nair, 2025)"],
-  ["D2","I check for the padlock icon before entering personal information on websites. (Bognar, 2024; Nithyasri, 2022)"],
-  ["D3","I use two-factor authentication (2FA) for important accounts such as email or banking. (Nair, 2025; Adhikari et al., 2026)"],
-  ["D4","I always log out of accounts when I finish using a shared or public device. (Bognar, 2024; Ngamcharoen et al., 2024)"],
-  ["D5","I regularly change my passwords for online accounts. (Bognar, 2024; Nair, 2025)"],
-  ["D6","I back up important files to an external drive or cloud storage. (Adhikari et al., 2026; Elrayah &amp; Jamil, 2023)"],
-  ["D7","I use strong passwords with a mix of letters, numbers, and special characters. (Dhungana et al., 2023; Ngamcharoen et al., 2024)"],
-  ["D8","I verify the sender's identity before clicking on links or opening attachments in emails. (Mai et al., 2021; Ngamcharoen et al., 2024)"],
+  ["D1","I update security or antivirus on my devices. (Nair, 2025)"],
+  ["D2","I check for a lock sign before I enter passwords or card details. (Nithyasri, 2022)"],
+  ["D3","I change my passwords from time to time. (Nithyasri, 2022)"],
+  ["D4","I log out when I finish on a shared or public device. (Bognar, 2024)"],
+  ["D5","I turn on two-factor authentication for important accounts when it is offered. (Nair, 2025; Adhikari et al., 2026)"],
+  ["D6","I back up important files to another drive or cloud storage. (Adhikari et al., 2026)"],
+  ["D7","I check who sent an email before I open links or attachments. (Ngamcharoen et al., 2024)"],
 ];
 
 const secE = [
-  ["E1","Perceived Severity: Losing my personal information in a cyberattack would be a very serious problem for me. (Gwenhure, 2025)"],
-  ["E2","Self-Efficacy: I am confident in my ability to identify and handle cybersecurity threats if they occur. (Gwenhure, 2025; Dhungana et al., 2023)"],
-  ["E3","Attitude: Adopting strict cybersecurity practices is essential for my personal safety in the digital era. (Ahamed et al., 2024; Anwar, 2023)"],
-  ["E4","Cues to Action: Hearing about a security breach from a fellow student would make me more conscious of my own safety. (Gwenhure, 2025)"],
-  ["E5","Barrier Perception: I find creating and remembering complex passwords to be annoying or difficult. (Gwenhure, 2025; Alharbi & Tassaddiq, 2021)"],
-  ["E6","Institutional Trust: I believe my university has adequately prepared me to handle modern cyber threats. (Ahamed et al., 2024; Adhikari et al., 2026)"],
-  ["E7","Exposure to Training: Formal cybersecurity training has significantly improved my adoption of secure online behaviors. (Anwar, 2023; Kont, 2025)"],
-  ["E8","Experience (EOS): I have previously experienced or know someone close who has been a victim of a cybercrime. (Ngamcharoen et al., 2024; Ahamed et al., 2024)"],
-  ["E9","Reporting Intent: If I noticed a security incident, I would know the proper authority to whom I should report it. (Ahamed et al., 2024; Dhungana et al., 2023)"],
+  ["E1","If hackers took my data, it would be a big problem for me. (Gwenhure, 2025)"],
+  ["E2","I can deal with common online dangers. (Gwenhure, 2025)"],
+  ["E3","Safe internet habits are important in my daily life. (Ahamed et al., 2024)"],
+  ["E4","I would know where to report an online crime. (Ahamed et al., 2024)"],
+  ["E5","Strong passwords are hard for me to make and remember. (Gwenhure, 2025)"],
+  ["E6","My university has prepared me enough for cyber risks. (Adhikari et al., 2026)"],
+  ["E7","If another student told me about a breach, I would be more careful. (Gwenhure, 2025)"],
 ];
 
 function buildScale(id, text, section) {
@@ -328,6 +306,20 @@ function selectDemo(btn, qid) {
   updateProgress();
 }
 
+function toggleDemoMulti(btn, qid) {
+  btn.classList.toggle('selected');
+  const row = btn.parentElement;
+  const selected = Array.prototype.map.call(row.querySelectorAll('.demo-btn.selected'), function (b) {
+    return b.textContent;
+  });
+  if (selected.length) {
+    answers['demo_' + qid] = selected.join('; ');
+  } else {
+    delete answers['demo_' + qid];
+  }
+  updateProgress();
+}
+
 function recordAnswer(id, val, section) {
   answers[id] = { val, section };
   document.querySelectorAll(`label[id^="opt-${id}-"]`).forEach(l => l.classList.remove('selected'));
@@ -336,7 +328,7 @@ function recordAnswer(id, val, section) {
 }
 
 function updateProgress() {
-  const demoCount = ['a1','a2','a3','a4','a5','a6','a7'].filter(k => answers['demo_'+k]).length;
+  const demoCount = ['a1','a2','a3','a4','a5'].filter(k => answers['demo_'+k]).length;
   const scaleKeys = [...secB,...secC,...secD,...secE].map(([id]) => id).filter(k => answers[k]);
   const total = demoCount + scaleKeys.length;
   document.getElementById('s-total').textContent = total;
