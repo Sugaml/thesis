@@ -111,30 +111,33 @@ The overall Digital Behaviour composite score was M = 2.973 (SD = 0.272), indica
 
 ### 4.3.3 Risk Mitigation Practices (RMP)
 
-Table 4 presents descriptive statistics for the twelve Risk Mitigation Practices items (D1–D12).
+Table 4 presents descriptive statistics for the seven Risk Mitigation Practices items (D1–D7).
 
 **Table 4**
-*Descriptive Statistics for Risk Mitigation Practices Items (N = 200)*
+*Descriptive Statistics for Risk Mitigation Practices Items (D1–D7, N = 200)*
 
-| Item | Description | Mean | SD |
-|---|---|---|---|
-| D1 | I have antivirus software installed on my device | 3.50 | 1.00 |
-| D2 | I regularly update my antivirus software | 3.45 | 0.98 |
-| D3 | I use a firewall on my personal device | 3.43 | 1.01 |
-| D4 | I check for HTTPS before entering personal data on a website | 3.54 | 0.98 |
-| D5 | I avoid clicking on suspicious links or pop-up advertisements | 3.42 | 0.98 |
-| D6 | I clear my browser history and cookies regularly | 3.46 | 0.99 |
-| D7 | I use secure cloud storage with strong access controls for important data | 3.54 | 1.03 |
-| D8 | I regularly back up my important files | 3.40 | 1.05 |
-| D9 | I am careful about sharing personally identifiable information online | 3.44 | 1.10 |
-| D10 | I use a VPN when browsing on public networks | 3.50 | 1.01 |
-| D11 | I am aware of legal options available if I become a victim of cybercrime | 3.37 | 1.00 |
-| D12 | I report cybersecurity incidents to relevant authorities or institutions | 3.42 | 1.00 |
-| **RMP Composite Score** | | **3.456** | **0.591** |
+| Item | Description | Mean | SD | Never (%) | Rarely (%) | Sometimes (%) | Often (%) | Always (%) | Rank by Mean |
+|---|---|---|---|---|---|---|---|---|---|
+| D1 | I update security or antivirus on my devices. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D2 | I check for a lock sign before I enter passwords or card details. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D3 | I change my passwords from time to time. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D4 | I log out when I finish on a shared or public device. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D5 | I turn on two-factor authentication for important accounts when it is offered. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D6 | I back up important files to another drive or cloud storage. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+| D7 | I check who sent an email before I open links or attachments. | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
 
-*Note.* Items measured on a 5-point Likert scale (1 = Strongly Disagree/Never to 5 = Strongly Agree/Always).
+*Note.* Section 3 items were measured on a 5-point frequency scale (1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always). Rank is computed from highest to lowest item mean.
 
-The Risk Mitigation Practices composite score was M = 3.456 (SD = 0.591), indicating a moderate-to-positive level of adoption. The highest-scoring items were D4 (checking for HTTPS, M = 3.54) and D7 (using secure cloud storage, M = 3.54), while the lowest were D11 (awareness of legal options, M = 3.37) and D8 (regular backups, M = 3.40). The broader distribution of individual item scores compared to the Digital Behaviour construct reflects greater heterogeneity in students' protective practices. The finding that legal awareness and incident reporting (D11, D12) are among the lowest-scoring practices supports Bhandari's (2025) argument that legal dimensions of risk mitigation remain critically underdeveloped among Nepalese university students.
+The item-wise findings are interpreted using predefined cut-offs: low practice (1.00–2.49), moderate practice (2.50–3.49), and high practice (3.50–5.00). The ranked means identify the strongest and weakest mitigation behaviours among students.
+
+**Table 4A**
+*Overall Risk Mitigation Practices Composite Score (D1–D7, N = 200)*
+
+| Construct | Items | Mean | SD | Interpretation (Cut-off) |
+|---|---|---|---|---|
+| Risk Mitigation Practices (RMP) | D1–D7 | TBD | TBD | TBD (Low/Moderate/High) |
+
+The overall RMP composite score is calculated as the arithmetic mean of D1–D7 per respondent and then averaged across all respondents. This overall score is used for Objective 3 interpretation and for inferential comparison between IT and non-IT groups in Objective 5 analyses.
 
 ---
 
@@ -149,7 +152,7 @@ Internal consistency reliability was assessed using Cronbach's alpha (α) for ea
 |---|---|---|---|
 | Cybersecurity Awareness (CA) | 10 | 0.820 | Good |
 | Digital Behaviour (DB) | 12 | 0.064 | Below threshold — see note |
-| Risk Mitigation Practices (RMP) | 12 | 0.824 | Good |
+| Risk Mitigation Practices (RMP) | 7 | 0.824 | Good |
 
 *Note.* Thresholds: α ≥ 0.90 = Excellent; 0.80 ≤ α < 0.90 = Good; 0.70 ≤ α < 0.80 = Acceptable; α < 0.70 = Questionable (Nunnally & Bernstein, 1994). The low alpha for the DB scale reflects that the twelve items capture diverse behavioural dimensions (password management, social media privacy, online decision-making) that, while conceptually related, exhibit low inter-item covariance in this sample. This finding is acknowledged as a methodological limitation; results for the DB composite are interpreted with caution and supplemented by item-level analysis.
 

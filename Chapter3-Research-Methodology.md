@@ -121,10 +121,10 @@ The structured questionnaire was organised into **five sections**:
 - **Section A: Demographic Information** (6 items) — capturing respondent's gender, age group, year of study, academic programme (IT/non-IT), college name, and frequency of internet use per day.
 - **Section B: Cybersecurity Awareness** (17 items) — measuring the three sub-dimensions of awareness: knowledge of threats (7 items), awareness of security tools (5 items), and safe internet practices (5 items).
 - **Section C: Digital Behaviour** (15 items) — measuring the three sub-dimensions: password practices (5 items), social media usage patterns (5 items), and online decision-making (5 items).
-- **Section D: Risk Mitigation Practices** (13 items) — measuring: use of antivirus/firewalls (4 items), safe browsing habits (5 items), and data protection practices (4 items).
+- **Section D: Risk Mitigation Practices** (7 items; D1–D7) — measuring students' routine protective cybersecurity actions (e.g., software updates, lock-sign verification, password change, logout practice, two-factor authentication, file backup, and sender verification before opening links/attachments).
 - **Section E: Open-ended Reflection** (2 items) — optional qualitative prompts inviting respondents to describe their most significant cybersecurity challenge and their college's role (if any) in promoting cybersecurity awareness.
 
-Sections B, C, and D collectively comprise **45 Likert-scale items** constituting the measurement model for quantitative analysis. Section E data were used for descriptive contextualisation of findings but were not included in statistical modelling.
+Sections B, C, and D collectively comprise the core Likert-scale indicators used in the quantitative measurement model. Section E data were used for descriptive contextualisation of findings but were not included in statistical modelling.
 
 ### 3.6.2 Likert Scale
 
@@ -148,7 +148,7 @@ The questionnaire items were developed through a two-stage process. In the first
 
 - **Cybersecurity Awareness**: Items adapted from Kovačević et al. (2020), who developed and validated a 25-item cybersecurity awareness scale for university students, and from Bognar and Bottyan (2024), who developed the Personal Cybersecurity Awareness Scale (PCAS).
 - **Digital Behaviour**: Items adapted from Mai and Tick (2021), who measured digital security behaviour across four dimensions, and from Alqahtani (2022), who validated a scale for cybersecurity awareness among Saudi university students.
-- **Risk Mitigation Practices**: Items adapted from Khatiwada (2025), who measured safe practice adoption among Nepalese students, and from Alqarni (2025), who measured data protection behaviours.
+- **Risk Mitigation Practices**: Items adapted from Nair (2025), Nithyasri (2022), Bognar and Bottyan (2024), Adhikari et al. (2026), and Ngamcharoen et al. (2024), covering practical behaviours related to device security, safe transaction checks, account protection, backup behaviour, and email-link caution.
 
 In the second stage, all adapted items were reviewed for contextual appropriateness in the Nepalese setting. Items referencing technologies or platforms uncommon in Nepal were modified or replaced. All items were translated into **Nepali** for the physical questionnaire version and back-translated into English by an independent bilingual academic to verify conceptual equivalence. A reconciled English version was used for digital distribution.
 
@@ -160,7 +160,7 @@ The three main latent constructs and their operationalisation are summarised bel
 
 **Digital Behaviour (DB)** is treated as the first dependent variable. It is measured as a reflective first-order latent construct with three sub-dimensions: (i) password practices (DB_PP), (ii) social media usage (DB_SM), and (iii) online decision-making (DB_OD). Higher scores indicate more security-conscious digital behaviour.
 
-**Risk Mitigation Practices (RMP)** is treated as the second dependent variable. It is measured as a reflective first-order latent construct with three sub-dimensions: (i) use of antivirus/firewalls (RMP_AF), (ii) safe browsing habits (RMP_SB), and (iii) data protection practices (RMP_DP). Higher scores indicate a greater adoption of risk-reducing behaviours.
+**Risk Mitigation Practices (RMP)** is treated as the second dependent variable. It is measured as a reflective first-order latent construct using seven indicators (D1–D7): security/antivirus update behaviour, lock-sign checking before entering sensitive details, periodic password change, logout behaviour on shared/public devices, two-factor authentication activation, backup practice, and sender verification before opening links/attachments. Higher scores indicate a greater adoption of risk-reducing behaviours.
 
 **Student Type (ST)** is treated as a grouping variable (moderating variable) in the comparative analyses. It is operationalised as a binary dichotomy: IT students (coded 1) and non-IT students (coded 0).
 
@@ -190,6 +190,8 @@ The analytical strategy proceeds through the following stages:
 **Normality Assessment** (SciPy): The Kolmogorov-Smirnov (`scipy.stats.kstest`) and Shapiro-Wilk (`scipy.stats.shapiro`) tests, supplemented by skewness and kurtosis statistics computed via `scipy.stats.skew` and `scipy.stats.kurtosis`, are used to evaluate whether the construct scores follow a normal distribution. Normality assessment informs the choice between parametric and non-parametric group-comparison tests for H3, H4, and H5.
 
 **Group Comparison Tests** (SciPy, Pingouin): For Hypotheses H3, H4, and H5, **independent-samples t-tests** are conducted using `scipy.stats.ttest_ind` or Pingouin's `ttest` function to compare mean cybersecurity awareness, digital behaviour, and risk mitigation practice scores between IT and non-IT students. Cohen's *d* is calculated via Pingouin as a measure of effect size (Cohen, 1988). If normality assumptions are violated, the non-parametric **Mann-Whitney U test** (`scipy.stats.mannwhitneyu`) is employed as an alternative. For comparisons across more than two groups (e.g., by year of study or academic programme), **one-way ANOVA** (`scipy.stats.f_oneway` or Pingouin's `anova`) with Tukey's HSD post-hoc test (Pingouin's `pairwise_tukey`) is applied.
+
+**Objective 3 Analysis Procedure (Risk Mitigation Practices):** For Section D (D1–D7), frequencies and percentages are first computed for each response category (Never, Rarely, Sometimes, Often, Always), followed by item-level means and standard deviations. An overall RMP composite score is then computed as the arithmetic mean of D1–D7 for each respondent and summarised at sample level. Interpretation follows predefined cut-offs (Low: 1.00–2.49, Moderate: 2.50–3.49, High: 3.50–5.00). Items are ranked from highest to lowest mean to identify strongest and weakest mitigation behaviours. For group comparison under Objective 5/H5, IT and non-IT mean differences in the RMP composite are assessed using an independent-samples t-test, with Mann-Whitney U used if normality assumptions are not met; p-values and effect sizes are reported.
 
 ### 3.7.3 SmartPLS 4
 
