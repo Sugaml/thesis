@@ -45,7 +45,7 @@ For Chapters IV and V analyses, the main construct scores were computed as:
 
 All B/C/D items used a 5-point scale. For DB, higher scores indicate **more risky behavior**.
 
-Section E (E1–E7) was collected as perception/attitude context data, but it was not included in the primary hypothesis-testing model of this thesis. It is retained for possible follow-up or extended analysis.
+Section E (E1–E7) was collected as perception/attitude context data, but it was not included in the primary hypothesis-testing model of this thesis because the current hypotheses (H1-H5) focus only on CA, DB, and RMP relationships/group differences. Section E is retained for possible follow-up or extended analysis.
 
 ## 3.5 Data Preparation
 

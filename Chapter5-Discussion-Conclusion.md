@@ -10,7 +10,7 @@ This chapter discusses the findings from Chapter IV based directly on `data/coll
 
 ### 5.2.1 Cybersecurity Awareness Level
 
-The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use. Compared with the strongest awareness items, concern about open public Wi-Fi was relatively lower, indicating room for targeted educational improvement.
+The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use, indicating generally positive cybersecurity knowledge in this sample.
 
 ### 5.2.2 Digital Behavior Pattern
 
@@ -25,13 +25,13 @@ Risk mitigation practices were relatively strong (RMP mean = 3.723). The highest
 Correlation and regression analyses show:
 
 - CA has a **significant negative** relationship with DB risk score.
-- CA has a **strong positive** relationship with RMP.
+- CA has a **moderate-to-strong positive** relationship with RMP (r = 0.646; regression R² = 0.418).
 
 This means awareness contributes directly to mitigation behavior and also reduces risky behavior levels when DB is measured as risk exposure.
 
 ### 5.2.5 IT vs Non-IT Comparison
 
-Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). This suggests cybersecurity awareness, digital behavior, and risk mitigation practices in this sample are not strongly separated by academic major.
+Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). In this sample, cybersecurity awareness, digital behavior, and risk mitigation practices were not clearly separated by academic major, though this null finding should be interpreted cautiously due to the modest group sizes (IT n = 48, non-IT n = 32).
 
 ---
 

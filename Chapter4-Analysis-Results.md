@@ -139,7 +139,7 @@ Cybersecurity awareness was positively associated with mitigation practices, and
 | CA | -0.238 | 0.095 | -2.504 | .014 | |
 | Model summary | — | — | — | — | 0.074 |
 
-CA significantly predicted DB with a negative coefficient. Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
+CA significantly predicted DB with a negative coefficient (B = -0.238, p = .014, R² = 0.074). Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
 
 ### 4.6.2 H2: Effect of CA on RMP
 
@@ -178,7 +178,7 @@ No statistically significant IT vs non-IT differences were found (CA: p = .655, 
 
 | Hypothesis | Statement | Result |
 |---|---|---|
-| H1 | CA positively influences DB | **Not supported in stated direction** (significant negative coefficient) |
+| H1 | CA positively influences DB | **Not supported in stated direction** (coefficient is negative; interprets as higher CA associated with lower risky DB) |
 | H2 | CA positively influences RMP | **Supported** |
 | H3 | IT and non-IT differ in CA | **Not supported** |
 | H4 | IT and non-IT differ in DB | **Not supported** |
