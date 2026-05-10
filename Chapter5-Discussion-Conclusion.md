@@ -10,7 +10,7 @@ This chapter discusses the findings from Chapter IV based directly on `data/coll
 
 ### 5.2.1 Cybersecurity Awareness Level
 
-The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use. However, legal-awareness-related and public Wi-Fi concern items were relatively lower than the top awareness items, indicating room for targeted educational improvement.
+The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use. Compared with the strongest awareness items, concern about open public Wi-Fi was relatively lower, indicating room for targeted educational improvement.
 
 ### 5.2.2 Digital Behavior Pattern
 
@@ -31,7 +31,7 @@ This means awareness contributes directly to mitigation behavior and also reduce
 
 ### 5.2.5 IT vs Non-IT Comparison
 
-Contrary to hypotheses H3-H5, the IT and non-IT groups did not differ significantly in CA, DB, or RMP (all p > .05). This suggests cybersecurity-related attitudes and practices in this sample are not strongly separated by academic major.
+Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). This suggests cybersecurity-related attitudes and practices in this sample are not strongly separated by academic major.
 
 ---
 

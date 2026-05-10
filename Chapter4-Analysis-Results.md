@@ -47,6 +47,8 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 
 ### 4.3.2 Item-Level Means and Standard Deviations
 
+*Note: DB is scored as a risk-oriented construct; higher DB scores indicate higher risky behavior.*
+
 **Table 4.3A**  
 *Cybersecurity Awareness Items (B1–B7)*
 
@@ -63,15 +65,15 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 **Table 4.3B**  
 *Digital Behavior (Risky) Items (C1–C7)*
 
-| Item | Mean | SD |
-|---|---:|---:|
-| C1 | 2.650 | 1.485 |
-| C2 | 1.700 | 1.060 |
-| C3 | 2.500 | 1.302 |
-| C4 | 2.350 | 1.323 |
-| C5 | 2.150 | 1.294 |
-| C6 | 1.938 | 1.173 |
-| C7 | 2.100 | 1.239 |
+| Item | Description | Mean | SD |
+|---|---|---:|---:|
+| C1 | I use one password for many accounts. | 2.650 | 1.485 |
+| C2 | I open links in emails from people I do not know. | 1.700 | 1.060 |
+| C3 | I use public Wi-Fi for banking or private work without extra protection. | 2.500 | 1.302 |
+| C4 | I download from websites I do not trust. | 2.350 | 1.323 |
+| C5 | I post my location or personal photos openly on social media. | 2.150 | 1.294 |
+| C6 | I click pop-up ads while browsing. | 1.938 | 1.173 |
+| C7 | I accept friend or chat requests from strangers online. | 2.100 | 1.239 |
 
 **Table 4.3C**  
 *Risk Mitigation Practice Items (D1–D7)*
@@ -132,7 +134,8 @@ Cybersecurity awareness was positively associated with mitigation practices, and
 | Predictor | B | SE | t | p | R² |
 |---|---:|---:|---:|---:|---:|
 | Intercept | 3.168 | 0.397 | 7.976 | < .001 | |
-| CA | -0.238 | 0.095 | -2.504 | .014 | 0.074 |
+| CA | -0.238 | 0.095 | -2.504 | .014 | |
+| Model summary | — | — | — | — | 0.074 |
 
 CA significantly predicted DB with a negative coefficient. Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
 
@@ -144,7 +147,8 @@ CA significantly predicted DB with a negative coefficient. Since DB is risk-orie
 | Predictor | B | SE | t | p | R² |
 |---|---:|---:|---:|---:|---:|
 | Intercept | 0.826 | 0.397 | 2.079 | .041 | |
-| CA | 0.710 | 0.095 | 7.484 | < .001 | 0.418 |
+| CA | 0.710 | 0.095 | 7.484 | < .001 | |
+| Model summary | — | — | — | — | 0.418 |
 
 CA strongly and positively predicted RMP.
 
@@ -161,7 +165,7 @@ CA strongly and positively predicted RMP.
 | DB | 2.140 (0.892) | 2.286 (0.701) | -0.778 | 78 | .439 | -0.178 |
 | RMP | 3.798 (1.159) | 3.612 (0.814) | 0.787 | 78 | .434 | 0.180 |
 
-No statistically significant IT vs non-IT differences were found for CA, DB, or RMP (using α = 0.05).
+No statistically significant IT vs non-IT differences were found (CA: p = .655, DB: p = .439, RMP: p = .434; using α = 0.05).
 
 ---
 
