@@ -20,7 +20,7 @@ This chapter reports results derived from `/home/runner/work/thesis/thesis/data/
 |  | 20–25 | 35 | 43.8 |
 |  | 26–40 | 37 | 46.2 |
 |  | 41 and above | 1 | 1.2 |
-| Academic Major | IT/Computer Science | 48 | 60.0 |
+| Academic Programme | IT/Computer Science | 48 | 60.0 |
 |  | Non-IT Related | 32 | 40.0 |
 | Academic Year | 1st | 15 | 18.8 |
 |  | 2nd | 6 | 7.5 |
@@ -161,7 +161,7 @@ CA strongly and positively predicted RMP.
 | DB | 2.140 (0.892) | 2.286 (0.701) | -0.778 | 78 | .439 | -0.178 |
 | RMP | 3.798 (1.159) | 3.612 (0.814) | 0.787 | 78 | .434 | 0.180 |
 
-No statistically significant IT vs non-IT differences were found for CA, DB, or RMP.
+No statistically significant IT vs non-IT differences were found for CA, DB, or RMP (using α = 0.05).
 
 ---
 

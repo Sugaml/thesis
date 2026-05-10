@@ -31,7 +31,7 @@ This means awareness contributes directly to mitigation behaviour and also reduc
 
 ### 5.2.5 IT vs Non-IT Comparison
 
-Contrary to expectation, the IT and non-IT groups did not differ significantly in CA, DB, or RMP (all p > .05). This suggests cybersecurity-related attitudes and practices in this sample are not strongly separated by academic major.
+Contrary to hypotheses H3-H5, the IT and non-IT groups did not differ significantly in CA, DB, or RMP (all p > .05). This suggests cybersecurity-related attitudes and practices in this sample are not strongly separated by academic major.
 
 ---
 
