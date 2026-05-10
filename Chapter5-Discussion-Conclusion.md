@@ -12,9 +12,9 @@ This chapter discusses the findings from Chapter IV based directly on `data/coll
 
 The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use. However, legal-awareness-related and public Wi-Fi concern items were relatively lower than the top awareness items, indicating room for targeted educational improvement.
 
-### 5.2.2 Digital Behaviour Pattern
+### 5.2.2 Digital Behavior Pattern
 
-The DB composite mean was 2.198 on risk-oriented items, indicating lower-to-moderate risky behaviour overall. Some risky practices still appear, especially password reuse (C1 mean = 2.650) and use of public Wi-Fi for sensitive work (C3 mean = 2.500). This implies that awareness exists, but behavioural consistency still needs reinforcement.
+The DB composite mean was 2.198 on risk-oriented items, indicating lower-to-moderate risky behavior overall. Some risky practices still appear, especially password reuse (C1 mean = 2.650) and use of public Wi-Fi for sensitive work (C3 mean = 2.500). This implies that awareness exists, but behavioral consistency still needs reinforcement.
 
 ### 5.2.3 Risk Mitigation Practices
 
@@ -27,7 +27,7 @@ Correlation and regression analyses show:
 - CA has a **significant negative** relationship with DB risk score.
 - CA has a **strong positive** relationship with RMP.
 
-This means awareness contributes directly to mitigation behaviour and also reduces risky behaviour levels when DB is measured as risk exposure.
+This means awareness contributes directly to mitigation behavior and also reduces risky behavior levels when DB is measured as risk exposure.
 
 ### 5.2.5 IT vs Non-IT Comparison
 
@@ -40,10 +40,10 @@ Contrary to hypotheses H3-H5, the IT and non-IT groups did not differ significan
 Based on the collected dataset, the study concludes:
 
 1. Students show generally high cybersecurity awareness.
-2. Risky digital behaviour is present but not dominant.
+2. Risky digital behavior is present but not dominant.
 3. Risk mitigation practice is comparatively strong.
 4. Awareness is a meaningful predictor of safer cyber outcomes:
-   - negative association with risky behaviour score,
+   - negative association with risky behavior score,
    - strong positive association with mitigation practices.
 5. IT vs non-IT differences are not statistically significant in this sample.
 
@@ -71,7 +71,7 @@ Based on the collected dataset, the study concludes:
 
 1. The analysis is based on 80 responses, limiting broad generalization.
 2. Data are self-reported and may include response bias.
-3. Cross-sectional design does not establish long-term behavioural change.
+3. Cross-sectional design does not establish long-term behavioral change.
 4. Group comparison used a single major classification (IT vs non-IT), which may mask discipline-level variation.
 
 ---
@@ -79,8 +79,8 @@ Based on the collected dataset, the study concludes:
 ## 5.6 Suggestions for Future Research
 
 1. Expand sample size across more universities and provinces.
-2. Use longitudinal designs to track behaviour change over time.
-3. Add qualitative interviews to explain why risky behaviours persist.
+2. Use longitudinal designs to track behavior change over time.
+3. Add qualitative interviews to explain why risky behaviors persist.
 4. Test intervention-based models (training before vs after assessment).
 5. Analyze Section E as a separate explanatory factor in structural models.
 
@@ -88,4 +88,4 @@ Based on the collected dataset, the study concludes:
 
 ## 5.7 Final Remark
 
-The collected data indicate that awareness matters: students with higher cybersecurity awareness report stronger mitigation practices and lower risky digital behaviour. Future institutional effort should focus on converting awareness into consistent daily cyber-safe habits across all academic disciplines.
+The collected data indicate that awareness matters: students with higher cybersecurity awareness report stronger mitigation practices and lower risky digital behavior. Future institutional effort should focus on converting awareness into consistent daily cyber-safe habits across all academic disciplines.

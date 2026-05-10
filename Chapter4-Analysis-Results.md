@@ -42,7 +42,7 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 | Construct | Items | Mean | SD | Interpretation |
 |---|---|---:|---:|---|
 | Cybersecurity Awareness (CA) | B1–B7 | 4.080 | 0.940 | High awareness |
-| Digital Behaviour (DB, risky) | C1–C7 | 2.198 | 0.819 | Low-to-moderate risky behaviour |
+| Digital Behavior (DB, risky) | C1–C7 | 2.198 | 0.819 | Low-to-moderate risky behavior |
 | Risk Mitigation Practices (RMP) | D1–D7 | 3.723 | 1.033 | High mitigation practice |
 
 ### 4.3.2 Item-Level Means and Standard Deviations
@@ -61,7 +61,7 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 | B7 | 4.088 | 1.193 |
 
 **Table 4.3B**  
-*Digital Behaviour (Risky) Items (C1–C7)*
+*Digital Behavior (Risky) Items (C1–C7)*
 
 | Item | Mean | SD |
 |---|---:|---:|
@@ -118,7 +118,7 @@ All three scales showed acceptable to good internal consistency.
 
 *Note:* *p < .05, **p < .01, ***p < .001.
 
-Cybersecurity awareness was positively associated with mitigation practices, and negatively associated with risky digital behaviour.
+Cybersecurity awareness was positively associated with mitigation practices, and negatively associated with risky digital behavior.
 
 ---
 
@@ -134,7 +134,7 @@ Cybersecurity awareness was positively associated with mitigation practices, and
 | Intercept | 3.168 | 0.397 | 7.976 | < .001 | |
 | CA | -0.238 | 0.095 | -2.504 | .014 | 0.074 |
 
-CA significantly predicted DB with a negative coefficient. Since DB is risk-oriented, higher awareness is linked with lower risky behaviour.
+CA significantly predicted DB with a negative coefficient. Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
 
 ### 4.6.2 H2: Effect of CA on RMP
 
@@ -180,4 +180,4 @@ No statistically significant IT vs non-IT differences were found for CA, DB, or 
 
 ## 4.9 Chapter Summary
 
-Using the collected dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behaviour, a significant positive CA→RMP link, and no significant IT/non-IT group differences.
+Using the collected dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behavior, a significant positive CA→RMP link, and no significant IT/non-IT group differences.
