@@ -45,6 +45,8 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 | Digital Behavior (DB, risky) | C1–C7 | 2.198 | 0.819 | Low-to-moderate risky behavior |
 | Risk Mitigation Practices (RMP) | D1–D7 | 3.723 | 1.033 | High mitigation practice |
 
+For interpretation, DB is risk-oriented: higher DB scores indicate higher risky behavior.
+
 ### 4.3.2 Item-Level Means and Standard Deviations
 
 *Note: DB is scored as a risk-oriented construct; higher DB scores indicate higher risky behavior.*
@@ -184,4 +186,4 @@ No statistically significant IT vs non-IT differences were found (CA: p = .655, 
 
 ## 4.9 Chapter Summary
 
-Using the collected dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behavior, a significant positive CA→RMP link, and no significant IT/non-IT group differences.
+Using the collected dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behavior, a significant positive relationship between CA and RMP, and no significant IT/non-IT group differences.

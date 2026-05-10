@@ -31,7 +31,7 @@ This means awareness contributes directly to mitigation behavior and also reduce
 
 ### 5.2.5 IT vs Non-IT Comparison
 
-Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). This suggests cybersecurity-related attitudes and practices in this sample are not strongly separated by academic major.
+Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). This suggests cybersecurity awareness, digital behavior, and risk mitigation practices in this sample are not strongly separated by academic major.
 
 ---
 
