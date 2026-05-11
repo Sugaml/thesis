@@ -101,7 +101,7 @@ In large finite populations, Yamane's formula is commonly used to determine indi
 n = \frac{N}{1 + N(e)^2}
 \]
 
-where \(n\) is sample size, \(N\) is population size, and \(e\) is margin of error (Yamane as discussed in Israel, 1992).
+where \(n\) is sample size, \(N\) is population size, and \(e\) is margin of error (Yamane, 1967; Israel, 1992).
 
 For large university populations and \(e = 0.05\), required sample sizes are typically near 400. In this study, the realized analyzable sample in `collect.csv` was 80 complete responses. This sample was considered adequate for the reported descriptive statistics, bivariate correlations, simple linear regression with one predictor, and two-group mean comparison, but statistical power and representativeness were recognized as limitations for broader generalization.
 
@@ -402,7 +402,7 @@ The hypotheses and corresponding statistical procedures are mapped below.
 
 | Hypothesis | Statement | Test statistic | Decision basis |
 |---|---|---|---|
-| H1 | Cybersecurity awareness positively influences digital behaviour | Simple linear regression (CA -> DB) | Sign and significance of \(\beta_1\), p < .05 |
+| H1 | Cybersecurity awareness significantly influences digital behaviour (DB coded as risk-oriented; expected \(\beta_1 < 0\)) | Simple linear regression (CA -> DB) | Sign and significance of \(\beta_1\), p < .05 |
 | H2 | Cybersecurity awareness positively influences risk mitigation practices | Simple linear regression (CA -> RMP) | Sign and significance of \(\beta_1\), p < .05 |
 | H3 | IT and non-IT students differ in cybersecurity awareness | Independent t-test on CA | Mean difference p < .05 |
 | H4 | IT and non-IT students differ in digital behaviour | Independent t-test on DB | Mean difference p < .05 |
@@ -654,3 +654,5 @@ Rogers, R. W. (1983). Cognitive and physiological processes in fear appeals and 
 Saunders, M., Lewis, P., & Thornhill, A. (2019). *Research methods for business students* (8th ed.). Pearson.
 
 Ulven, J. B., & Wangen, G. (2021). A systematic review of cybersecurity risks in higher education. *Future Internet, 13*(2), 39. https://doi.org/10.3390/fi13020039
+
+Yamane, T. (1967). *Statistics: An introductory analysis* (2nd ed.). Harper and Row.
