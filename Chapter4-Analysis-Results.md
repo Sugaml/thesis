@@ -2,33 +2,33 @@
 
 ## 4.1 Introduction
 
-This chapter reports results derived from `/home/runner/work/thesis/thesis/data/collect.csv` (N = 80). Analyses include demographic profile, construct-level descriptive statistics, reliability, correlation, regression, and IT vs non-IT comparison.
+This chapter reports results derived from `/home/runner/work/thesis/thesis/data/data-collection.csv` (N = 101). Analyses include demographic profile, construct-level descriptive statistics, reliability, correlation, regression, and IT vs non-IT comparison.
 
 ---
 
 ## 4.2 Demographic Profile of Respondents
 
 **Table 4.1**  
-*Demographic Profile (N = 80)*
+*Demographic Profile (N = 101)*
 
 | Variable | Category | Frequency | Percentage (%) |
 |---|---:|---:|---:|
-| Gender | Male | 44 | 55.0 |
-|  | Female | 34 | 42.5 |
-|  | Prefer not to say | 2 | 2.5 |
-| Age | Under 20 | 7 | 8.8 |
-|  | 20–25 | 35 | 43.8 |
-|  | 26–40 | 37 | 46.2 |
-|  | 41 and above | 1 | 1.2 |
-| Academic Programme | IT/Computer Science | 48 | 60.0 |
-|  | Non-IT Related | 32 | 40.0 |
-| Academic Year | 1st | 15 | 18.8 |
-|  | 2nd | 6 | 7.5 |
-|  | 3rd | 2 | 2.5 |
-|  | 4th | 19 | 23.8 |
-|  | Post-graduate | 38 | 47.5 |
+| Gender | Male | 56 | 55.4 |
+|  | Female | 43 | 42.6 |
+|  | Prefer not to say | 2 | 2.0 |
+| Age | Under 20 | 7 | 6.9 |
+|  | 20–25 | 48 | 47.5 |
+|  | 26–40 | 44 | 43.6 |
+|  | 41 and above | 2 | 2.0 |
+| Academic Programme | IT/Computer Science | 53 | 52.5 |
+|  | Non-IT Related | 48 | 47.5 |
+| Academic Year | 1st | 17 | 16.8 |
+|  | 2nd | 10 | 9.9 |
+|  | 3rd | 2 | 2.0 |
+|  | 4th | 25 | 24.8 |
+|  | Post-graduate | 47 | 46.5 |
 
-Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related programs (60.0%). Nearly half of respondents were postgraduate students (47.5%).
+Most respondents were male (55.4%), aged 20–25 (47.5%), and from IT-related programs (52.5%). Nearly half of respondents were postgraduate students (46.5%).
 
 ---
 
@@ -37,13 +37,13 @@ Most respondents were male (55.0%), aged 26–40 (46.2%), and from IT-related pr
 ### 4.3.1 Construct-Level Results
 
 **Table 4.2**  
-*Composite Scores (N = 80)*
+*Composite Scores (N = 101)*
 
 | Construct | Items | Mean | SD | Interpretation |
 |---|---|---:|---:|---|
-| Cybersecurity Awareness (CA) | B1–B7 | 4.080 | 0.940 | High awareness |
-| Digital Behavior (DB, risky) | C1–C7 | 2.198 | 0.819 | Low-to-moderate risky behavior |
-| Risk Mitigation Practices (RMP) | D1–D7 | 3.723 | 1.033 | High mitigation practice |
+| Cybersecurity Awareness (CA) | B1–B7 | 4.091 | 0.949 | High awareness |
+| Digital Behavior (DB, risky) | C1–C7 | 2.204 | 0.885 | Low-to-moderate risky behavior |
+| Risk Mitigation Practices (RMP) | D1–D7 | 3.762 | 1.012 | High mitigation practice |
 
 For interpretation, DB is risk-oriented: higher DB scores indicate higher risky behavior.
 
@@ -56,39 +56,39 @@ For interpretation, DB is risk-oriented: higher DB scores indicate higher risky 
 
 | Item | Mean | SD |
 |---|---:|---:|
-| B1 | 4.213 | 1.219 |
-| B2 | 4.300 | 1.205 |
-| B3 | 4.100 | 1.279 |
-| B4 | 3.850 | 1.254 |
-| B5 | 3.750 | 1.373 |
-| B6 | 4.263 | 1.156 |
-| B7 | 4.088 | 1.193 |
+| B1 | 4.228 | 1.174 |
+| B2 | 4.307 | 1.206 |
+| B3 | 4.050 | 1.284 |
+| B4 | 3.842 | 1.231 |
+| B5 | 3.842 | 1.347 |
+| B6 | 4.257 | 1.172 |
+| B7 | 4.109 | 1.165 |
 
 **Table 4.3B**  
 *Digital Behavior (Risky) Items (C1–C7)*
 
 | Item | Description | Mean | SD |
 |---|---|---:|---:|
-| C1 | I use one password for many accounts. | 2.650 | 1.485 |
-| C2 | I open links in emails from people I do not know. | 1.700 | 1.060 |
-| C3 | I use public Wi-Fi for banking or private work without extra protection. | 2.500 | 1.302 |
-| C4 | I download from websites I do not trust. | 2.350 | 1.323 |
-| C5 | I post my location or personal photos openly on social media. | 2.150 | 1.294 |
-| C6 | I click pop-up ads while browsing. | 1.938 | 1.173 |
-| C7 | I accept friend or chat requests from strangers online. | 2.100 | 1.239 |
+| C1 | I use one password for many accounts. | 2.624 | 1.482 |
+| C2 | I open links in emails from people I do not know. | 1.733 | 1.094 |
+| C3 | I use public Wi-Fi for banking or private work without extra protection. | 2.495 | 1.331 |
+| C4 | I download from websites I do not trust. | 2.307 | 1.362 |
+| C5 | I post my location or personal photos openly on social media. | 2.218 | 1.339 |
+| C6 | I click pop-up ads while browsing. | 1.980 | 1.225 |
+| C7 | I accept friend or chat requests from strangers online. | 2.069 | 1.290 |
 
 **Table 4.3C**  
 *Risk Mitigation Practice Items (D1–D7)*
 
 | Item | Mean | SD |
 |---|---:|---:|
-| D1 | 3.513 | 1.331 |
-| D2 | 3.575 | 1.403 |
-| D3 | 3.413 | 1.260 |
-| D4 | 3.888 | 1.341 |
-| D5 | 3.975 | 1.222 |
-| D6 | 3.700 | 1.316 |
-| D7 | 4.000 | 1.283 |
+| D1 | 3.505 | 1.324 |
+| D2 | 3.624 | 1.363 |
+| D3 | 3.436 | 1.292 |
+| D4 | 3.931 | 1.336 |
+| D5 | 3.990 | 1.237 |
+| D6 | 3.792 | 1.275 |
+| D7 | 4.059 | 1.279 |
 
 Highest mitigation means were D7 and D5, while D3 was the lowest among mitigation items.
 
@@ -101,9 +101,9 @@ Highest mitigation means were D7 and D5, while D3 was the lowest among mitigatio
 
 | Construct | Items | Cronbach's Alpha (α) | Interpretation |
 |---|---:|---:|---|
-| CA | 7 | 0.876 | Good |
-| DB | 7 | 0.764 | Acceptable |
-| RMP | 7 | 0.899 | Good |
+| CA | 7 | 0.888 | Good |
+| DB | 7 | 0.802 | Good |
+| RMP | 7 | 0.891 | Good |
 
 All three scales showed acceptable to good internal consistency.
 
@@ -116,9 +116,9 @@ All three scales showed acceptable to good internal consistency.
 
 | Construct | CA | DB | RMP |
 |---|---:|---:|---:|
-| CA | 1.000 | -0.273* | 0.646*** |
-| DB | -0.273* | 1.000 | -0.287** |
-| RMP | 0.646*** | -0.287** | 1.000 |
+| CA | 1.000 | -0.217* | 0.665*** |
+| DB | -0.217* | 1.000 | -0.253* |
+| RMP | 0.665*** | -0.253* | 1.000 |
 
 *Note:* *p < .05, **p < .01, ***p < .001.
 
@@ -135,11 +135,11 @@ Cybersecurity awareness was positively associated with mitigation practices, and
 
 | Predictor | B | SE | t | p | R² |
 |---|---:|---:|---:|---:|---:|
-| Intercept | 3.168 | 0.397 | 7.976 | < .001 | |
-| CA | -0.238 | 0.095 | -2.504 | .014 | |
-| Model summary | — | — | — | — | 0.074 |
+| Intercept | 3.029 | 0.374 | 8.094 | < .001 | |
+| CA | -0.202 | 0.091 | -2.207 | .030 | |
+| Model summary | — | — | — | — | 0.047 |
 
-CA significantly predicted DB with a negative coefficient (B = -0.238, p = .014, R² = 0.074). Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
+CA significantly predicted DB with a negative coefficient (B = -0.202, p = .030, R² = 0.047). Since DB is risk-oriented, higher awareness is linked with lower risky behavior.
 
 ### 4.6.2 H2: Effect of CA on RMP
 
@@ -148,9 +148,9 @@ CA significantly predicted DB with a negative coefficient (B = -0.238, p = .014,
 
 | Predictor | B | SE | t | p | R² |
 |---|---:|---:|---:|---:|---:|
-| Intercept | 0.826 | 0.397 | 2.079 | .041 | |
-| CA | 0.710 | 0.095 | 7.484 | < .001 | |
-| Model summary | — | — | — | — | 0.418 |
+| Intercept | 0.865 | 0.327 | 2.648 | .009 | |
+| CA | 0.708 | 0.080 | 8.849 | < .001 | |
+| Model summary | — | — | — | — | 0.442 |
 
 CA strongly and positively predicted RMP.
 
@@ -163,11 +163,11 @@ CA strongly and positively predicted RMP.
 
 | Construct | IT Mean (SD) | Non-IT Mean (SD) | t | df | p | Cohen's d |
 |---|---|---|---:|---:|---:|---:|
-| CA | 4.042 (1.110) | 4.138 (0.617) | -0.448 | 78 | .655 | -0.102 |
-| DB | 2.140 (0.892) | 2.286 (0.701) | -0.778 | 78 | .439 | -0.178 |
-| RMP | 3.798 (1.159) | 3.612 (0.814) | 0.787 | 78 | .434 | 0.180 |
+| CA | 4.100 (1.075) | 4.080 (0.799) | 0.102 | 99 | .919 | 0.020 |
+| DB | 2.194 (0.916) | 2.214 (0.858) | -0.114 | 99 | .909 | -0.023 |
+| RMP | 3.833 (1.116) | 3.685 (0.888) | 0.734 | 99 | .465 | 0.146 |
 
-No statistically significant IT vs non-IT differences were found (CA: p = .655, DB: p = .439, RMP: p = .434; using α = 0.05).
+No statistically significant IT vs non-IT differences were found (CA: p = .919, DB: p = .909, RMP: p = .465; using α = 0.05).
 
 ---
 
@@ -186,4 +186,4 @@ No statistically significant IT vs non-IT differences were found (CA: p = .655, 
 
 ## 4.9 Chapter Summary
 
-Using the collected dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behavior, a significant positive relationship between CA and RMP, and no significant IT/non-IT group differences.
+Using the updated dataset, the analysis shows high awareness and mitigation levels overall, low-to-moderate risky digital behavior, a significant positive relationship between CA and RMP, and no significant IT/non-IT group differences.
