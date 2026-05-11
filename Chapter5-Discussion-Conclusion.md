@@ -2,7 +2,7 @@
 
 ## 5.1 Introduction
 
-This chapter discusses the findings from Chapter IV based directly on `data/collect.csv` (N = 80), then presents conclusions, practical recommendations, limitations, and future research directions.
+This chapter discusses the findings from Chapter IV based directly on `data/data-collection.csv` (N = 101), then presents conclusions, practical recommendations, limitations, and future research directions.
 
 ---
 
@@ -10,28 +10,28 @@ This chapter discusses the findings from Chapter IV based directly on `data/coll
 
 ### 5.2.1 Cybersecurity Awareness Level
 
-The study found a high average cybersecurity awareness score (CA mean = 4.080). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use, indicating generally positive cybersecurity knowledge in this sample.
+The study found a high average cybersecurity awareness score (CA mean = 4.091). Students reported strong awareness of malware risk, phishing danger, and the importance of secure device use, indicating generally positive cybersecurity knowledge in this sample.
 
 ### 5.2.2 Digital Behavior Pattern
 
-The DB composite mean was 2.198 on risk-oriented items, indicating lower-to-moderate risky behavior overall. Some risky practices still appear, especially password reuse (C1 mean = 2.650) and use of public Wi-Fi for sensitive work (C3 mean = 2.500). This implies that awareness exists, but behavioral consistency still needs reinforcement.
+The DB composite mean was 2.204 on risk-oriented items, indicating lower-to-moderate risky behavior overall. Some risky practices still appear, especially password reuse (C1 mean = 2.624) and use of public Wi-Fi for sensitive work (C3 mean = 2.495). This implies that awareness exists, but behavioral consistency still needs reinforcement.
 
 ### 5.2.3 Risk Mitigation Practices
 
-Risk mitigation practices were relatively strong (RMP mean = 3.723). The highest items were checking sender identity before opening links (D7 mean = 4.000) and enabling two-factor authentication (D5 mean = 3.975). The lowest was periodic password change (D3 mean = 3.413), suggesting one clear area for intervention.
+Risk mitigation practices were relatively strong (RMP mean = 3.762). The highest items were checking sender identity before opening links (D7 mean = 4.059) and enabling two-factor authentication (D5 mean = 3.990). The lowest was periodic password change (D3 mean = 3.436), suggesting one clear area for intervention.
 
 ### 5.2.4 Relationships Among Constructs
 
 Correlation and regression analyses show:
 
 - CA has a **significant negative** relationship with DB risk score.
-- CA has a **moderate-to-strong positive** relationship with RMP (r = 0.646; regression R² = 0.418).
+- CA has a **moderate-to-strong positive** relationship with RMP (r = 0.665; regression R² = 0.442).
 
 This means awareness contributes directly to mitigation behavior and also reduces risky behavior levels when DB is measured as risk exposure.
 
 ### 5.2.5 IT vs Non-IT Comparison
 
-Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). In this sample, cybersecurity awareness, digital behavior, and risk mitigation practices were not clearly separated by academic major, though this null finding should be interpreted cautiously due to the modest group sizes (IT n = 48, non-IT n = 32).
+Hypotheses H3-H5 predicted significant IT vs non-IT differences in CA, DB, and RMP. However, the results did not show significant group differences (all p > .05). In this sample, cybersecurity awareness, digital behavior, and risk mitigation practices were not clearly separated by academic major, though this null finding should be interpreted cautiously despite a more balanced group profile (IT n = 53, non-IT n = 48).
 
 ---
 
@@ -69,7 +69,7 @@ Based on the collected dataset, the study concludes:
 
 ## 5.5 Limitations of the Study
 
-1. The analysis is based on 80 responses, limiting broad generalization.
+1. The analysis is based on 101 responses, but still limited to one university context, which constrains broad generalization.
 2. Data are self-reported and may include response bias.
 3. Cross-sectional design does not establish long-term behavioral change.
 4. Group comparison used a single major classification (IT vs non-IT), which may mask discipline-level variation.
