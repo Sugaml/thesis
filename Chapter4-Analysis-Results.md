@@ -28,7 +28,7 @@ This chapter reports results derived from `/home/runner/work/thesis/thesis/data/
 |  | 4th | 25 | 24.8 |
 |  | Post-graduate | 47 | 46.5 |
 
-Most respondents were male (55.4%), aged 20–25 (47.5%), and from IT-related programs (52.5%). Nearly half of respondents were postgraduate students (46.5%).
+Most respondents were male (55.4%), with age concentration in 20–25 (47.5%) and 26–40 (43.6%), and from IT-related programs (52.5%). Nearly half of respondents were postgraduate students (46.5%).
 
 ---
 
