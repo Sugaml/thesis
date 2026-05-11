@@ -637,8 +637,6 @@ Dhungana, R. K., Gurung, L., & Poudyal, H. (2023). Cybersecurity challenges and 
 
 Gupta, L. (2024). Issues of cyber security and its solutions in Nepalese context. *NPRC Journal of Multidisciplinary Research, 1*(2), 122-127. https://doi.org/10.3126/nprcjmr.v1i2.69333
 
-Hair, J. F., Risher, J. J., Sarstedt, M., & Ringle, C. M. (2019). When to use and how to report the results of PLS-SEM. *European Business Review, 31*(1), 2-24. https://doi.org/10.1108/EBR-11-2018-0203
-
 Israel, G. D. (1992). *Determining sample size*. University of Florida, IFAS Extension.
 
 Khatiwada, S. (2025). Cybersecurity awareness and practices of students at Makawanpur Multiple Campus, Nepal. *International Research Journal of MMC, 6*(5), 26-37. https://doi.org/10.3126/irjmmc.v6i5.89028
