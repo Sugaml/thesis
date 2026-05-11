@@ -55,7 +55,7 @@ The unit of analysis was the individual student respondent. Each row in `collect
 
 ### 3.4.1 Geographic and Institutional Context
 
-The study was situated in Nepal and focused on students associated with higher education institutions under the Pokhara University ecosystem. This context was selected because digital dependence in Nepalese higher education has increased rapidly, while cybersecurity behaviour and practical protection habits remain unevenly distributed across disciplines and institutions (Dhungana et al., 2023; Gupta, 2024; Bhandari, 2025).
+The study was situated in Nepal and focused on students associated with higher education institutions under the Pokhara University ecosystem. This context was selected because digital dependence in Nepalese higher education has increased rapidly, while cybersecurity behaviour and practical protection habits remain unevenly distributed across disciplines and institutions (Ulven & Wangen, 2021; Dhungana et al., 2023; Gupta, 2024; Bhandari, 2025).
 
 The Nepal context is methodologically important because it combines rapid digital adoption with emerging legal and educational cybersecurity frameworks. Existing literature has suggested that awareness levels may not be translated consistently into secure behaviour in such transitional environments (Khatiwada, 2025; Adhikari et al., 2026).
 
@@ -637,7 +637,7 @@ Dhungana, R. K., Gurung, L., & Poudyal, H. (2023). Cybersecurity challenges and 
 
 Gupta, L. (2024). Issues of cyber security and its solutions in Nepalese context. *NPRC Journal of Multidisciplinary Research, 1*(2), 122-127. https://doi.org/10.3126/nprcjmr.v1i2.69333
 
-Israel, G. D. (1992). *Determining sample size*. University of Florida, IFAS Extension.
+Israel, G. D. (1992). *Determining sample size* (Fact Sheet PEOD-6). University of Florida Cooperative Extension Service, Institute of Food and Agriculture Sciences.
 
 Khatiwada, S. (2025). Cybersecurity awareness and practices of students at Makawanpur Multiple Campus, Nepal. *International Research Journal of MMC, 6*(5), 26-37. https://doi.org/10.3126/irjmmc.v6i5.89028
 
