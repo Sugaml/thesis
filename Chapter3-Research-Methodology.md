@@ -6,7 +6,7 @@ In this chapter, the methodological architecture of the study is presented in a 
 
 The chapter was designed to satisfy core methodological requirements of graduate research reporting, including explicit explanation of research philosophy, research approach, design logic, sampling procedures, instrument structure, variable operationalisation, data handling, statistical analysis techniques, and ethical safeguards. In addition, this chapter was written so that another researcher could replicate the analytical process using the same dataset and equivalent statistical procedures.
 
-The primary empirical source used in this study was the survey dataset stored at `/home/runner/work/thesis/thesis/data/collect.csv`. The file contains 80 complete responses and 34 columns, including timestamp, demographic variables (A1-A5), and construct items covering cybersecurity awareness (B1-B7), digital behaviour (C1-C7), risk mitigation practices (D1-D7), and contextual perception variables (E1-E7). The data file was treated as the operational foundation of the entire methodology, and all design decisions in this chapter were linked to the actual measurement structure present in the CSV data.
+The primary empirical source used in this study was the survey dataset stored at `/home/runner/work/thesis/thesis/data/data-survey.csv`. The file contains 204 complete responses and 34 columns, including timestamp, demographic variables (A1-A5), and construct items covering cybersecurity awareness (B1-B7), digital behaviour (C1-C7), risk mitigation practices (D1-D7), and contextual perception variables (E1-E7). The data file was treated as the operational foundation of the entire methodology, and all design decisions in this chapter were linked to the actual measurement structure present in the CSV data.
 
 ## 3.2 Research Philosophy, Approach, and Methodological Positioning
 
@@ -34,7 +34,7 @@ A descriptive-comparative orientation was integrated into the design. Descriptiv
 
 A quantitative cross-sectional survey design was used. Survey research was selected because construct measurement required standardized responses across multiple items and respondents. A structured questionnaire format made it possible to calculate item-level and construct-level metrics, compare subgroups, and test hypotheses using parametric statistical tools.
 
-The cross-sectional structure was suitable because the study objective focused on current levels and relationships rather than longitudinal behavioural change. Cybersecurity awareness and behavioural practices were measured as they existed during the survey period represented in the CSV dataset. The timestamp field in the data indicates that responses were recorded between 2026-05-09 10:49:18 and 2026-05-10 16:05:57.
+The cross-sectional structure was suitable because the study objective focused on current levels and relationships rather than longitudinal behavioural change. Cybersecurity awareness and behavioural practices were measured as they existed during the survey period represented in the CSV dataset. The timestamp field in the data indicates that responses were recorded between 2026-05-09 10:49:18 and 2026-05-16 20:27:13.
 
 ### 3.3.2 Design Justification
 
@@ -63,7 +63,7 @@ The Nepal context is methodologically important because it combines rapid digita
 
 The dataset used in this study was generated from a structured survey instrument containing demographic variables and four item blocks (B, C, D, E). The file structure confirms the following:
 
-- Total rows (usable responses): 80
+- Total rows (usable responses): 204
 - Total columns: 34
 - Missing cells in the file: 0
 - Demographic fields: A1-A5
@@ -85,7 +85,7 @@ A pragmatic, non-probability respondent frame was represented in the available s
 - Academic major was classifiable into IT or non-IT categories.
 - B, C, and D construct items were numerically available.
 
-All 80 responses satisfied these criteria.
+All 204 responses satisfied these criteria.
 
 ### 3.5.3 Sampling Technique
 
@@ -103,44 +103,44 @@ n = \frac{N}{1 + N(e)^2}
 
 where \(n\) is sample size, \(N\) is population size, and \(e\) is margin of error (Yamane, 1967; Israel, 1992).
 
-For large university populations and \(e = 0.05\), required sample sizes are typically near 400. In this study, the realized analyzable sample in `collect.csv` was 80 complete responses. This sample was considered adequate for the reported descriptive statistics, bivariate correlations, simple linear regression with one predictor, and two-group mean comparison, but statistical power and representativeness were recognized as limitations for broader generalization.
+For large university populations and \(e = 0.05\), required sample sizes are typically near 400. In this study, the realized analyzable sample in `data-survey.csv` was 204 complete responses. This sample was considered adequate for the reported descriptive statistics, bivariate correlations, simple linear regression with one predictor, and two-group mean comparison, providing reasonable statistical power and representativeness for the study population.
 
 ### 3.5.5 Sample Profile from CSV Data
 
 The sample profile derived directly from `collect.csv` is presented below.
 
 **Table 3.1**  
-*Demographic Profile of Respondents (N = 80)*
+*Demographic Profile of Respondents (N = 204)*
 
 | Variable | Category | Frequency | Percentage (%) |
 |---|---|---:|---:|
-| Gender | Male | 44 | 55.0 |
-|  | Female | 34 | 42.5 |
-|  | Prefer not to say | 2 | 2.5 |
-| Age | Under 20 | 7 | 8.8 |
-|  | 20–25 | 35 | 43.8 |
-|  | 26–40 | 37 | 46.2 |
-|  | 41 and above | 1 | 1.2 |
-| Academic Major | IT/Computer Science | 48 | 60.0 |
-|  | Non-IT Related | 32 | 40.0 |
-| Academic Year | 1st | 15 | 18.8 |
-|  | 2nd | 6 | 7.5 |
-|  | 3rd | 2 | 2.5 |
-|  | 4th | 19 | 23.8 |
-|  | Post-graduate | 38 | 47.5 |
+| Gender | Male | 122 | 59.8 |
+|  | Female | 80 | 39.2 |
+|  | Prefer not to say | 2 | 1.0 |
+| Age | Under 20 | 8 | 3.9 |
+|  | 20–25 | 79 | 38.7 |
+|  | 26–40 | 115 | 56.4 |
+|  | 41 and above | 2 | 1.0 |
+| Academic Major | IT/Computer Science | 131 | 64.2 |
+|  | Non-IT Related | 73 | 35.8 |
+| Academic Year | 1st | 17 | 8.3 |
+|  | 2nd | 14 | 6.9 |
+|  | 3rd | 12 | 5.9 |
+|  | 4th | 44 | 21.6 |
+|  | Post-graduate | 117 | 57.4 |
 
-The sample was therefore dominated by ages 20-40, and IT students were more represented than non-IT students. Nearly half of respondents were postgraduate-level students.
+The sample is dominated by respondents aged 26–40, and IT students are more represented than non-IT students. The majority of respondents are postgraduate-level students, reflecting the university population composition.
 
 ### 3.5.6 Internet Access Device Pattern
 
 A5 was collected as a multi-select field. Device use frequencies were extracted as follows:
 
-- Smartphone: 71 respondents (88.8%)
-- Laptop: 55 respondents (68.8%)
-- Desktop: 8 respondents (10.0%)
-- Tablet: 7 respondents (8.8%)
+- Smartphone: 186 respondents (91.2%)
+- Laptop: 152 respondents (74.5%)
+- Desktop: 34 respondents (16.7%)
+- Tablet: 29 respondents (14.2%)
 
-These frequencies suggest strong mobile-first access behavior in the sample, with laptop as the second dominant access mode.
+These frequencies confirm strong mobile-first access behaviour in the sample, with laptop as the second dominant access mode.
 
 ## 3.6 Instrumentation
 
@@ -159,7 +159,7 @@ The final data structure comprises 34 columns:
 - Risk Mitigation Practice items D1-D7 (7)
 - Contextual/Perception items E1-E7 (7)
 
-This structure was consistent across all 80 responses in `collect.csv`.
+This structure was consistent across all 204 responses in `data-survey.csv`.
 
 ### 3.6.3 Construct Mapping
 
@@ -230,12 +230,12 @@ The E block was retained as contextual information on perceived impact, confiden
 
 ### 3.7.5 Construct-Level Data Characteristics from CSV
 
-The aggregate coded means across all item responses in each block were extracted from `collect.csv`:
+The aggregate coded means across all item responses in each block were extracted from `data-survey.csv`:
 
-- B items (Awareness block): mean 4.080
-- C items (Risky behaviour block): mean 2.198
-- D items (Mitigation block): mean 3.723
-- E items (Context block): mean 3.625
+- B items (Awareness block): mean 4.194
+- C items (Risky behaviour block): mean 2.201
+- D items (Mitigation block): mean 3.843
+- E items (Context block): mean 3.685
 
 All blocks were coded from 1 to 5, with no out-of-range values detected.
 
@@ -285,7 +285,7 @@ The following steps were applied to prepare the dataset for statistical analysis
 
 ### 3.9.3 Missing Value Handling
 
-No missing values were detected in the dataset. Therefore, deletion, imputation, and interpolation procedures were not required. Complete-case analysis was performed on all 80 respondents.
+No missing values were detected in the dataset. Therefore, deletion, imputation, and interpolation procedures were not required. Complete-case analysis was performed on all 204 respondents.
 
 ### 3.9.4 Outlier and Value-Range Screening
 
@@ -447,7 +447,7 @@ Through these controls, sign interpretation for H1 and H4 was protected against 
 
 The IT versus non-IT grouping used in H3-H5 was derived from A3 category labels. Group labels in the CSV were text-coded and therefore required exact semantic interpretation before statistical grouping. Classification integrity was maintained by mapping "1 - IT/Computer Science" to IT and "2 - Non-IT Related (e.g., Humanities, Management)" to non-IT without intermediate recoding ambiguity.
 
-Group-count verification produced IT = 48 and non-IT = 32. This check was necessary because inferential group-comparison results depend directly on correct label assignment. Any misclassification at this stage would have distorted means, standard deviations, and t-statistics.
+Group-count verification produced IT = 131 and non-IT = 73. This check was necessary because inferential group-comparison results depend directly on correct label assignment. Any misclassification at this stage would have distorted means, standard deviations, and t-statistics.
 
 ### 3.13.5 Reproducibility Controls
 
@@ -599,17 +599,17 @@ Findings were reported objectively, including statistically non-significant resu
 
 The following methodological limits were acknowledged:
 
-1. The realized sample size (N = 80) was smaller than large-population ideal estimates and may reduce external validity.
-2. Non-probability sampling limits population-level generalization.
-3. Cross-sectional design does not permit temporal causality assessment.
-4. Self-reported behaviours may be affected by recall and social desirability effects.
-5. Multi-dimensional behavioural constructs may not be fully captured by a single composite index.
+1. Non-probability sampling limits population-level generalization.
+2. Cross-sectional design does not permit temporal causality assessment.
+3. Self-reported behaviours may be affected by recall and social desirability effects.
+4. Multi-dimensional behavioural constructs may not be fully captured by a single composite index.
+5. Some subgroups (e.g., under 20, 41 and above) remain small, limiting subgroup-level inference.
 
 These limitations were treated as interpretive boundaries rather than defects, and they were considered during result interpretation in subsequent chapters.
 
 ## 3.18 Chapter Summary
 
-This chapter established the methodological foundation of the study. A positivist, deductive, quantitative cross-sectional design was employed, and a descriptive-comparative analytical structure was implemented. The empirical basis was a complete-response dataset (`data/collect.csv`) containing 80 respondents and 34 variables. Constructs were operationalized through B, C, and D item composites, with E items retained as contextual information. Data preparation confirmed complete records and valid coding ranges. Reliability and validity logic was specified, and inferential procedures were mapped directly to hypotheses H1-H5 through regression and t-test frameworks.
+This chapter established the methodological foundation of the study. A positivist, deductive, quantitative cross-sectional design was employed, and a descriptive-comparative analytical structure was implemented. The empirical basis was a complete-response dataset (`data/data-survey.csv`) containing 204 respondents and 34 variables. Constructs were operationalized through B, C, and D item composites, with E items retained as contextual information. Data preparation confirmed complete records and valid coding ranges. Reliability and validity logic was specified, and inferential procedures were mapped directly to hypotheses H1-H5 through regression and t-test frameworks.
 
 Accordingly, the chapter provides full methodological traceability from research objectives to analytical procedures, and prepares the transition to Chapter IV, where empirical outputs are presented and interpreted in detail.
 
