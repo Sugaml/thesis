@@ -2,7 +2,7 @@
 
 ## 5.1 Introduction
 
-This chapter interprets the updated findings from Chapter IV using the revised dataset (`N = 135`) and connects those findings with the study objectives, hypotheses, and prior literature. It then presents conclusions, implications, recommendations, limitations, and future research directions.
+This chapter interprets the updated findings from Chapter IV using the revised dataset (**N = 204**) and connects those findings with the study objectives, hypotheses, and prior literature. It then presents conclusions, implications, recommendations, limitations, and future research directions.
 
 The core empirical pattern from the updated data can be summarized as follows:
 
@@ -10,7 +10,7 @@ The core empirical pattern from the updated data can be summarized as follows:
 2. Risky digital behavior remains at low-to-moderate levels,
 3. Mitigation practices are comparatively stronger,
 4. Awareness predicts safer outcomes (lower risk behavior and higher mitigation), and
-5. IT vs non-IT differences in the three primary constructs are not statistically significant.
+5. IT students show significantly lower risky behavior and significantly higher mitigation practices than non-IT students, though awareness levels do not differ significantly between groups.
 
 ---
 
@@ -18,7 +18,7 @@ The core empirical pattern from the updated data can be summarized as follows:
 
 ### 5.2.1 Objective 1: Assess the Level of Cybersecurity Awareness
 
-The updated analysis shows a high awareness mean (**CA = 4.178**). Students report strong knowledge in key awareness items, particularly phishing danger (B2) and general vulnerability from careless internet use (B6). This indicates that the respondent population is not unaware of cyber threats at a conceptual level.
+The updated analysis shows a high awareness mean (**CA = 4.194**). Students report strong knowledge in key awareness items, particularly phishing danger (B2 = 4.485) and general vulnerability from careless internet use (B6 = 4.441). This indicates that the respondent population is not unaware of cyber threats at a conceptual level.
 
 However, awareness is not uniformly high across all dimensions. The legal-awareness item (B4) has a lower mean than most technical-risk items. This pattern suggests that students are more exposed to practical digital warnings (e.g., phishing, malware, privacy breach risk) than to national cyber law awareness. In Nepal's context, this is meaningful because legal literacy remains an important but underdeveloped part of cybersecurity education.
 
@@ -26,12 +26,12 @@ The finding is broadly consistent with studies that report improved baseline cyb
 
 ### 5.2.2 Objective 2: Study Digital Behavior Patterns
 
-The risk-oriented digital behavior score is **DB = 2.131**, indicating that, on average, respondents do not frequently engage in high-risk actions. Still, this lower mean should not be interpreted as an absence of risk.
+The risk-oriented digital behavior score is **DB = 2.202**, indicating that, on average, respondents do not frequently engage in high-risk actions. Still, this lower mean should not be interpreted as an absence of risk.
 
 Two behavior items remain comparatively elevated:
 
-- **Password reuse (C1 = 2.570)**,
-- **Unsafe use of public Wi-Fi for sensitive activity (C3 = 2.385)**.
+- **Password reuse (C1 = 2.740)**,
+- **Unsafe use of public Wi-Fi for sensitive activity (C3 = 2.495)**.
 
 These two behaviors represent high practical vulnerability because they are common pathways for credential theft and account compromise. Other risky behaviors—such as opening unknown links and accepting unknown requests—show lower average frequency, which is positive. Yet the persistence of password and Wi-Fi related risk confirms the knowledge-behavior gap described in prior cybersecurity behavior research.
 
@@ -39,35 +39,35 @@ In short, students appear aware of cyber threats but are not fully consistent in
 
 ### 5.2.3 Objective 3: Understand Risk Mitigation Practices
 
-Mitigation practice scores are relatively strong (**RMP = 3.842**). Students report frequent use of important safety actions such as:
+Mitigation practice scores are relatively strong (**RMP = 3.843**). Students report frequent use of important safety actions such as:
 
-- checking sender identity before opening links or attachments (D7),
-- enabling two-factor authentication where available (D5), and
-- logging out on shared/public devices (D4).
+- checking sender identity before opening links or attachments (D7 = 4.137),
+- enabling two-factor authentication where available (D5 = 4.137), and
+- logging out on shared/public devices (D4 = 4.078).
 
-The weakest mitigation item is periodic password change (D3), followed by lower emphasis on routine update/check practices (D1, D2) relative to top-ranked items. This suggests that students may perform visible or event-triggered defensive actions more than routine, maintenance-style security behavior.
+The weakest mitigation item is periodic password change (D3 = 3.544), followed closely by routine update and lock-sign check practices (D1, D2 both = 3.618) relative to top-ranked items. This suggests that students may perform visible or event-triggered defensive actions more than routine, maintenance-style security behavior.
 
 This is an important operational insight: intervention programs should move beyond one-time awareness campaigns and target repeated, habit-based protective practices.
 
 ### 5.2.4 Objective 4: Relationship Between Awareness and Digital Behavior
 
-The association between awareness and risk behavior is statistically significant and negative (**r = -0.251, p = 0.0033**). Regression confirms this direction (**B = -0.247, p = 0.0033**), meaning higher awareness is linked to lower risky behavior scores.
+The association between awareness and risk behavior is statistically significant and negative (**r = -0.249, p < .001**). Regression confirms this direction (**B = -0.263, p < .001**), meaning higher awareness is linked to lower risky behavior scores.
 
-Because DB is measured as a risk score, this inverse relationship indicates improvement in behavioral safety with increasing awareness. Although statistically significant, the model explains a modest proportion of variance (**R² = 0.063**), implying that awareness contributes meaningfully but is not the sole behavioral driver.
+Because DB is measured as a risk score, this inverse relationship indicates improvement in behavioral safety with increasing awareness. Although statistically significant, the model explains a modest proportion of variance (**R² = 0.062**), implying that awareness contributes meaningfully but is not the sole behavioral driver.
 
 This result supports the practical view that awareness training remains necessary but must be complemented by environmental, social, and institutional supports to produce stronger behavioral change.
 
 ### 5.2.5 Objective 5: IT vs Non-IT Comparison
 
-The updated IT vs non-IT tests show no statistically significant differences in the three primary constructs:
+The updated IT vs non-IT tests reveal a nuanced pattern across the three primary constructs:
 
-- CA: p = 0.2826
-- DB: p = 0.3523
-- RMP: p = 0.1271
+- CA: p = 0.0645 (not significant)
+- DB: p = 0.0120 (significant, medium effect d = 0.390)
+- RMP: p = 0.0267 (significant, small-medium effect d = 0.316)
 
-IT students have slightly better average values (higher CA and RMP, lower DB risk), but effect sizes are small and not significant at the selected threshold. This suggests that in this sample, academic major alone does not sharply divide cybersecurity outcomes.
+Awareness levels are similar between IT and non-IT students, suggesting that general cyber risk knowledge has become broadly distributed. However, IT students demonstrate significantly lower risky digital behaviour and significantly stronger risk mitigation practices. This disciplinary difference in behavioral and protective outcomes, even when awareness levels are comparable, is an important finding for curriculum and intervention design.
 
-This is an important conclusion for university policy: cybersecurity education should be mainstreamed across all programs, not restricted to IT curricula. The assumption that non-IT students are the only vulnerable group is not supported by the observed data.
+Non-IT students therefore remain a priority target for practical cybersecurity skill development, even though they are not strikingly different from IT students in awareness level.
 
 ---
 
@@ -75,21 +75,21 @@ This is an important conclusion for university policy: cybersecurity education s
 
 ### 5.3.1 H1: Positive Relationship Between CA and DB
 
-H1 was framed as a positive relationship. The empirical result shows a significant **negative** slope between CA and DB risk score. Since DB is risk-oriented, the negative coefficient represents a desirable safety pattern (higher awareness, lower risky behavior). Therefore, H1 is not supported in its literal positive wording but is substantively consistent with the intended safer-behavior direction.
+H1 was framed as a positive relationship. The empirical result shows a significant **negative** slope between CA and DB risk score (B = -0.263, p < .001, R² = 0.062). Since DB is risk-oriented, the negative coefficient represents a desirable safety pattern (higher awareness, lower risky behavior). Therefore, H1 is not supported in its literal positive wording but is substantively consistent with the intended safer-behavior direction.
 
 ### 5.3.2 H2: Positive Relationship Between CA and RMP
 
-H2 is strongly supported. Awareness significantly predicts mitigation practices, and the explanatory power is substantial (**R² = 0.428**). This is the strongest inferential result in the study and indicates that awareness-focused strategy can produce meaningful practical benefit when translated into concrete risk-control actions.
+H2 is strongly supported. Awareness significantly predicts mitigation practices, and the explanatory power is substantial (**R² = 0.353**, B = 0.632, p < .001). This is the strongest inferential result in the study and indicates that awareness-focused strategy can produce meaningful practical benefit when translated into concrete risk-control actions.
 
 ### 5.3.3 H3, H4, H5: IT vs Non-IT Differences
 
-None of the three group-difference hypotheses are supported. The absence of significant differences can be interpreted in several ways:
+H3 is not supported: cybersecurity awareness does not differ significantly between IT and non-IT students (p = 0.0645). This suggests that baseline cyber knowledge has become broadly distributed across disciplines, consistent with the increasing digital exposure of all students.
 
-1. Cyber risk exposure is now broadly shared across disciplines,
-2. Informal digital learning channels may reduce major-based awareness gaps,
-3. Existing curricular differences may not be large enough to produce strong behavioral divergence.
+H4 is supported: IT students report significantly lower risky digital behaviour than non-IT students (p = 0.0120, Cohen's d = 0.390). The medium effect size indicates a practically meaningful gap in everyday risky practices.
 
-From a policy standpoint, non-significance does not imply no issue; instead, it suggests that cybersecurity capacity-building should be universal and continuous.
+H5 is supported: IT students demonstrate significantly stronger risk mitigation practices than non-IT students (p = 0.0267, Cohen's d = 0.316). Despite comparable awareness levels, IT students translate knowledge into protective behavior more effectively.
+
+The pattern across H3–H5 suggests a behavioral advantage for IT students that is not driven purely by awareness differences. Structured technical training, discipline-specific lab exposure, and peer modeling in IT programs may contribute to more consistent application of protective cyber habits.
 
 ---
 
@@ -99,7 +99,7 @@ The updated findings align with established literature that places awareness as 
 
 The stronger CA→RMP path relative to CA→DB suggests that students more easily adopt explicit protective actions (e.g., 2FA, checking senders) than they eliminate ingrained convenience behaviors (e.g., password reuse). This reflects a known behavioral asymmetry: adding a visible protective step may be easier than changing habitual risk-taking behavior linked to convenience or time pressure.
 
-The non-significant IT/non-IT primary comparisons further indicate that cybersecurity should be treated as a general student competence rather than a domain-limited IT skill.
+The significant IT/non-IT differences in behavior and mitigation (H4, H5), despite comparable awareness (H3), further indicate that cybersecurity education in IT programs builds practical skill beyond general knowledge acquisition. Non-IT programs should incorporate structured practical cybersecurity components to close this behavioral gap.
 
 ---
 
@@ -107,17 +107,17 @@ The non-significant IT/non-IT primary comparisons further indicate that cybersec
 
 ### 5.5.1 Influencing Factor (E-section) Insight
 
-Exploratory analysis of IF (E1–E7) shows acceptable reliability and meaningful relationships:
+Exploratory analysis of IF (E1–E7) shows acceptable reliability (α = 0.709) and meaningful relationships:
 
-- Positive correlation with awareness and mitigation,
-- Negative correlation with risky behavior,
-- Significant IT vs non-IT difference (IT higher IF).
+- Positive correlation with awareness (r = 0.614) and mitigation (r = 0.589),
+- Negative correlation with risky behavior (r = -0.202),
+- Significant IT vs non-IT difference (IT higher IF, p = 0.0022).
 
 This suggests the broader psychosocial/institutional context (perceived seriousness, preparedness, peer influence, perceived capability) is likely relevant to intervention design.
 
 ### 5.5.2 Age Pattern in Mitigation
 
-Age-group analysis indicates significant variation in mitigation practices (p = 0.0072), with under-20 respondents showing lower mitigation scores. This supports targeted onboarding and early-year cyber-hygiene training for younger students.
+Age-group analysis indicates significant variation in mitigation practices (F = 5.707, p = 0.0009), with under-20 respondents showing the lowest RMP mean (3.018). Respondents aged 26–40 show the highest mitigation scores (4.039). This supports targeted onboarding and early-year cyber-hygiene training for younger students.
 
 ---
 
@@ -125,11 +125,11 @@ Age-group analysis indicates significant variation in mitigation practices (p = 
 
 ### 5.6.1 Implications for Universities
 
-1. **Mainstream cybersecurity across all faculties**: mandatory foundational cyber safety modules for IT and non-IT students.
+1. **Prioritize behavioral and practical training for non-IT students**: while awareness levels are similar, non-IT students demonstrate significantly higher risky behavior and lower mitigation practices, indicating a gap in practical cybersecurity application.
 2. **Shift from awareness-only to behavior-change design**: include simulations, practice tasks, and repeated reinforcement.
-3. **Target top residual risk behaviors**: password reuse and unsafe public Wi-Fi practice.
-4. **Strengthen legal and reporting literacy**: improve awareness of Nepalese cyber laws and incident reporting channels.
-5. **Support younger cohorts early**: first-year/younger student interventions should prioritize baseline mitigation routines.
+3. **Target top residual risk behaviors**: password reuse and unsafe public Wi-Fi practice remain the highest-risk behavioral items across all student groups.
+4. **Strengthen legal and reporting literacy**: improve awareness of Nepalese cyber laws and incident reporting channels (B4 remains the lowest awareness item).
+5. **Support younger cohorts early**: first-year and under-20 student interventions should prioritize baseline mitigation routines.
 
 ### 5.6.2 Implications for Curriculum and Training
 
@@ -178,13 +178,13 @@ Age-group analysis indicates significant variation in mitigation practices (p = 
 
 ## 5.8 Conclusion
 
-Based on the updated sample of 135 students, the study concludes that cybersecurity awareness among Pokhara University-affiliated students is generally high and significantly connected to safer cyber outcomes. Students with higher awareness report stronger mitigation practices and lower risky digital behavior.
+Based on the updated sample of **204 students**, the study concludes that cybersecurity awareness among Pokhara University-affiliated students is generally high and significantly connected to safer cyber outcomes. Students with higher awareness report stronger mitigation practices and lower risky digital behavior.
 
 However, risky habits persist in specific everyday practices, especially password reuse and unsafe public Wi-Fi behavior. This confirms that awareness alone is not sufficient; sustained behavioral reinforcement is necessary.
 
-The study does not find statistically significant IT vs non-IT differences for awareness, risky behavior, or mitigation. Therefore, cybersecurity capacity building should be institution-wide and discipline-neutral rather than IT-only.
+The study finds that IT students have significantly lower risky behavior and significantly stronger mitigation practices than non-IT students (H4 and H5 supported), even though awareness levels are not significantly different (H3 not supported). This behavioral gap indicates that discipline-specific practical training matters for translating awareness into daily protective action.
 
-In short, the updated evidence supports a practical policy direction for Nepalese universities: move from one-time awareness messaging to continuous, behavior-centered cybersecurity education for all students.
+In short, the updated evidence supports a practical policy direction for Nepalese universities: integrate structured, behavior-focused cybersecurity training into all programs—particularly non-IT curricula—to close the observed behavioral and mitigation gap between student groups.
 
 ---
 
@@ -192,10 +192,10 @@ In short, the updated evidence supports a practical policy direction for Nepales
 
 This study contributes in five key ways:
 
-1. It provides an updated quantitative evidence base from a larger sample (N = 135).
+1. It provides an updated quantitative evidence base from a larger sample (N = 204).
 2. It jointly examines awareness, risky behavior, and mitigation practice in one framework.
 3. It clarifies that awareness strongly predicts mitigation and modestly predicts reduced risk behavior.
-4. It provides discipline-comparison evidence (IT vs non-IT) showing no major gap in core outcomes.
+4. It identifies a behavioral and mitigation gap between IT and non-IT students (H4 and H5 supported) that is not paralleled in awareness scores.
 5. It highlights actionable intervention priorities for Nepalese higher education institutions.
 
 ---
@@ -206,7 +206,7 @@ This study contributes in five key ways:
 2. Data are self-reported and may include social desirability or recall effects.
 3. The sample is limited to Pokhara University-affiliated context; generalization should be cautious.
 4. Behavior was measured by survey response rather than observed digital actions.
-5. Although larger than the previous dataset, some subgroups (e.g., under 20, 41+) remain small.
+5. Some subgroups (e.g., under 20, 41 and above, 3rd-year students) remain small, limiting subgroup-level inference.
 
 ---
 
@@ -223,4 +223,4 @@ This study contributes in five key ways:
 
 ## 5.12 Final Remark
 
-The updated results reinforce a central message: **awareness is necessary but not sufficient**. Nepalese universities need consistent, practical, and inclusive cybersecurity education that turns awareness into everyday secure digital behavior across all disciplines and student groups.
+The updated results reinforce a central message: **awareness is necessary but not sufficient**. Nepalese universities need consistent, practical, and inclusive cybersecurity education that turns awareness into everyday secure digital behavior. The behavioral gap between IT and non-IT students identified in this study provides a clear mandate: non-IT programs require structured practical cybersecurity training to close the discipline-based gap in risky behavior and protective practice.
