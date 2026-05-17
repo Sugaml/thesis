@@ -1,7 +1,7 @@
 # Thesis Specifications — GRP Guideline Checklist
 
 **Thesis title:** Assessing the Influence of Cybersecurity Awareness on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal  
-**University:** Pokhara University  
+**Institution:** University  
 **Degree:** Masters (Graduate Research Project — GRP)  
 **Guideline source:** *The GRP Report: Basic Guidelines for Students*, School of Management, Tribhuvan University (2013) — `guidelines/GRP Report Guideline.pdf`
 
@@ -166,7 +166,7 @@ All three divisions must be present and in this order:
 ## 7. Chapter-by-Chapter Content Checklist
 
 ### Chapter I — Introduction
-- [ ] Background / context of the study (cybersecurity in Nepal / Pokhara University)
+- [ ] Background / context of the study (cybersecurity in Nepal / University)
 - [ ] Problem statement
 - [ ] General objective and five specific objectives
 - [ ] Research questions or hypotheses (H1–H5)
@@ -185,7 +185,7 @@ All three divisions must be present and in this order:
 
 ### Chapter III — Research Methods (passive voice throughout)
 - [ ] Research design (quantitative, descriptive-comparative, positivist)
-- [ ] Target population (Pokhara University undergraduate students)
+- [ ] Target population (University undergraduate students)
 - [ ] Sample size determination (Yamane formula; 200 respondents for PLS-SEM)
 - [ ] Sampling technique (non-probability: purposive + convenience)
 - [ ] Research instrument (questionnaire; construct sources; pilot test if any)
@@ -235,7 +235,7 @@ for the degree of
 At the
 
 [Faculty / School Name]
-Pokhara University
+University
 
 [Month, Year]
 ```
@@ -248,7 +248,7 @@ Pokhara University
 CERTIFICATION
 
 We, the undersigned, certify that we have read and hereby recommend for acceptance
-by [School/Faculty], Pokhara University, a Graduate Research Project (GRP) report
+by [School/Faculty], University, a Graduate Research Project (GRP) report
 submitted by [Name] entitled "Assessing the Influence of Cybersecurity Awareness
 on Digital Behaviour and Risk Mitigation Practices Among University Students in Nepal"
 in partial fulfilment of the requirements for the award of the degree of [Degree].
@@ -290,8 +290,8 @@ Date:
 
 | # | Hypothesis |
 |---|-----------|
-| H1 | There is a positive relationship between cybersecurity awareness and digital behaviour among Pokhara University students. |
-| H2 | There is a positive relationship between cybersecurity awareness and risk mitigation practices among Pokhara University students. |
+| H1 | There is a positive relationship between cybersecurity awareness and digital behaviour among University students. |
+| H2 | There is a positive relationship between cybersecurity awareness and risk mitigation practices among University students. |
 | H3 | There is a significant difference in cybersecurity awareness between IT and non-IT students. |
 | H4 | There is a significant difference in digital behaviour between IT and non-IT students. |
 | H5 | There is a significant difference in risk mitigation practices between IT and non-IT students. |

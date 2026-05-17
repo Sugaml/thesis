@@ -1,7 +1,7 @@
 # ASSESSING THE INFLUENCE OF CYBERSECURITY AWARENESS ON DIGITAL BEHAVIOUR AND RISK MITIGATION PRACTICES AMONG UNIVERSITY STUDENTS IN NEPAL
 
 **A Graduate Research Project (GRP) Thesis Report**  
-Pokhara University  
+University  
 
 ---
 
@@ -18,7 +18,7 @@ A Graduate Research Project submitted in partial fulfilment of the requirements 
 
 At the
 
-[Faculty / School Name], Pokhara University
+[Faculty / School Name], University
 
 [Month, Year]
 
@@ -26,7 +26,7 @@ At the
 
 ## CERTIFICATION
 
-We, the undersigned, certify that we have read and hereby recommend for acceptance by [School/Faculty], Pokhara University, a Graduate Research Project report submitted by [Candidate Name] entitled *Assessing the Influence of Cybersecurity Awareness on Digital Behavior and Risk Mitigation Practices Among University Students in Nepal* in partial fulfilment of the requirements for the award of the degree of [Degree Name].
+We, the undersigned, certify that we have read and hereby recommend for acceptance by [School/Faculty], University, a Graduate Research Project report submitted by [Candidate Name] entitled *Assessing the Influence of Cybersecurity Awareness on Digital Behavior and Risk Mitigation Practices Among University Students in Nepal* in partial fulfilment of the requirements for the award of the degree of [Degree Name].
 
 GRP Supervisor: ____________________  
 External Examiner: ____________________  
@@ -52,7 +52,7 @@ I would like to express my sincere gratitude to my supervisor, faculty members, 
 
 ## EXECUTIVE SUMMARY
 
-This thesis examines how cybersecurity awareness influences digital behavior and risk mitigation practices among university students in Nepal, with a specific comparative focus on IT and non-IT students in Pokhara University-affiliated colleges. Using a quantitative survey design, student responses were analyzed through descriptive statistics, reliability testing, correlation, regression, and group-difference analysis. The findings establish that cybersecurity awareness is strongly associated with improved mitigation practices and significantly related to digital behavior patterns. The study provides evidence-based implications for curriculum reform, university-level awareness interventions, and policy design in Nepal's higher education context.
+This thesis examines how cybersecurity awareness influences digital behavior and risk mitigation practices among university students in Nepal, with a specific comparative focus on IT and non-IT students in University-affiliated colleges. Using a quantitative survey design, student responses were analyzed through descriptive statistics, reliability testing, correlation, regression, and group-difference analysis. The findings establish that cybersecurity awareness is strongly associated with improved mitigation practices and significantly related to digital behavior patterns. The study provides evidence-based implications for curriculum reform, university-level awareness interventions, and policy design in Nepal's higher education context.
 
 ---
 
@@ -107,7 +107,7 @@ Within the Nepalese higher education landscape, cybersecurity awareness research
 
 Despite growing international and Nepalese research, critical gaps persist. No study in Nepal has simultaneously examined all three dimensions of cybersecurity awareness—knowledge, digital behavior, and risk mitigation practices—among university students in a single, statistically robust framework. More specifically, no published research has conducted a formal comparative analysis of IT versus non-IT students in Nepal across these dimensions using a structured quantitative methodology. Understanding this comparison is of significant practical importance: it directly informs curriculum design, institutional awareness campaigns, and policy recommendations for Nepal's Ministry of Education and university administrators. If IT students, who represent the country's future digital workforce, are not significantly more competent in cybersecurity practices than their non-IT peers, this suggests that current IT curricula insufficiently embed cybersecurity as a core competency. Conversely, if clear gaps exist between the two populations, targeted, differentiated interventions can be designed for each group.
 
-This study, therefore, is conducted in the context of Pokhara University-affiliated colleges, representing one of Nepal's major higher education systems encompassing a diverse range of academic programs including IT, management, humanities, and science. The research investigates cybersecurity awareness, digital behavior, and risk mitigation practices among undergraduate students with an explicit comparison between IT and non-IT enrolled students. By bridging the gap between global evidence and Nepal's specific educational and socio-digital context, this study aims to generate findings that are both academically rigorous and actionable for Nepalese educational institutions, policymakers, and students themselves.
+This study, therefore, is conducted in the context of University-affiliated colleges, representing one of Nepal's major higher education systems encompassing a diverse range of academic programs including IT, management, humanities, and science. The research investigates cybersecurity awareness, digital behavior, and risk mitigation practices among undergraduate students with an explicit comparison between IT and non-IT enrolled students. By bridging the gap between global evidence and Nepal's specific educational and socio-digital context, this study aims to generate findings that are both academically rigorous and actionable for Nepalese educational institutions, policymakers, and students themselves.
 
 ## 1.2 Statement of the Problem
 
@@ -117,7 +117,7 @@ In Nepal, the problem is particularly acute. Despite a rapidly growing internet 
 
 A particularly underexplored problem in the Nepalese context is whether students from Information Technology (IT) disciplines differ meaningfully from non-IT students in their cybersecurity awareness, digital behavior, and risk mitigation practices. While IT education is expected to cultivate cybersecurity competence, evidence from comparable contexts suggests that technical education does not automatically translate into safer online behavior (Mai et al., 2021; Adhikari et al., 2026). This gap in comparative evidence is a critical limitation for curriculum designers, institutional policymakers, and national cybersecurity strategists in Nepal.
 
-Furthermore, existing studies in Nepal have tended to examine cybersecurity awareness in isolation, rarely integrating all three dimensions—knowledge, digital behavior, and risk mitigation—within a single quantitative framework, and none have specifically focused on students affiliated with Pokhara University. This study addresses these overlapping gaps: the absence of integrated multi-dimensional assessment, the lack of IT vs. non-IT comparative data, and the specific contextual gap regarding Pokhara University students. Without empirically grounded, context-specific data, institutional efforts to improve cybersecurity culture in Nepalese universities will remain generic, poorly targeted, and ultimately ineffective.
+Furthermore, existing studies in Nepal have tended to examine cybersecurity awareness in isolation, rarely integrating all three dimensions—knowledge, digital behavior, and risk mitigation—within a single quantitative framework, and none have specifically focused on students affiliated with the University. This study addresses these overlapping gaps: the absence of integrated multi-dimensional assessment, the lack of IT vs. non-IT comparative data, and the specific contextual gap regarding University students. Without empirically grounded, context-specific data, institutional efforts to improve cybersecurity culture in Nepalese universities will remain generic, poorly targeted, and ultimately ineffective.
 
 ## 1.3 Research Questions
 
@@ -173,7 +173,7 @@ This study holds significance at multiple levels—academic, institutional, poli
 
 **Academic Contribution.** The study contributes to cybersecurity awareness literature by providing an integrated, three-dimensional assessment—spanning knowledge, digital behavior, and risk mitigation—within a single quantitative framework applied to a Nepalese university context. This addresses a methodological gap identified by Netshiunda (2025) and Bwiino et al. (2026), who noted that most existing studies assess only one or two dimensions of cybersecurity awareness in isolation. The comparative IT vs. non-IT analysis also contributes novel empirical evidence to the discipline-specific cybersecurity competency debate (Mai et al., 2021; Adhikari et al., 2026).
 
-**Institutional Value.** For Pokhara University-affiliated colleges and other Nepalese HEIs, the findings offer a diagnostic baseline that can directly inform the design of curriculum reforms, student orientation programs, and institutional cybersecurity awareness campaigns. Cheng (2022) and Ulven & Wangen (2021) demonstrate that HEI-level awareness strategies are most effective when grounded in data from the target institution's own student population. This study provides exactly that data.
+**Institutional Value.** For University-affiliated colleges and other Nepalese HEIs, the findings offer a diagnostic baseline that can directly inform the design of curriculum reforms, student orientation programs, and institutional cybersecurity awareness campaigns. Cheng (2022) and Ulven & Wangen (2021) demonstrate that HEI-level awareness strategies are most effective when grounded in data from the target institution's own student population. This study provides exactly that data.
 
 **Policy Relevance.** At the national level, the study's findings inform Nepal's implementation of its Cybersecurity Policy (2023) and existing Electronic Transactions Act provisions. Bhandari (2025) and Gupta (2024, 2025) highlight a persistent gap between Nepal's existing cybersecurity legal framework and students' awareness of it; this study surfaces the specific dimensions of that gap, enabling more targeted policy communication and enforcement.
 
@@ -185,7 +185,7 @@ This study holds significance at multiple levels—academic, institutional, poli
 
 While this study has been designed with methodological rigor, several limitations must be acknowledged to appropriately contextualize its findings and guide future research.
 
-1. **Sampling Limitations.** The study is confined to undergraduate students enrolled in Pokhara University-affiliated colleges in Nepal. While Pokhara University represents a major component of Nepalese higher education, the findings may not be fully generalizable to students at Tribhuvan University, Kathmandu University, or other institutions with distinct demographic, geographic, or academic profiles (Dhungana et al., 2023).
+1. **Sampling Limitations.** The study is confined to undergraduate students enrolled in University-affiliated colleges in Nepal. While the University represents a major component of Nepalese higher education, the findings may not be fully generalizable to students at Tribhuvan University, Kathmandu University, or other institutions with distinct demographic, geographic, or academic profiles (Dhungana et al., 2023).
 
 2. **Self-Report Bias.** Data are collected through structured questionnaires relying on self-reported perceptions of awareness, behavior, and practices. Respondents may over-report awareness or positive behaviors due to social desirability bias, leading to potential overestimation of actual cybersecurity competence—a limitation acknowledged widely in survey-based cybersecurity research (Bognar, 2024; Kovacevic, 2020).
 
@@ -442,7 +442,7 @@ In the Nepalese context, Adhikari et al. (2026) and Khatiwada (2025) both implic
 
 The review of existing literature reveals several significant gaps that the present study is positioned to address.
 
-**First**, while there is a growing body of research on cybersecurity awareness among university students in various regions—including South Asia, the Middle East, Eastern Europe, and Southeast Asia—empirical research specifically focused on Pokhara University-affiliated students in Nepal is extremely limited. Existing Nepalese studies are either restricted to a single campus (Khatiwada, 2025; Bhandari, 2025) or directed at organisational rather than student populations (Adhikari et al., 2025). Adhikari et al. (2026) provide the most proximate study to the present research, but their focus on Oxford College in Gaidakot does not capture the diversity of Pokhara University's affiliated colleges in the Gandaki Province, where IT and non-IT programs coexist in varied institutional contexts.
+**First**, while there is a growing body of research on cybersecurity awareness among university students in various regions—including South Asia, the Middle East, Eastern Europe, and Southeast Asia—empirical research specifically focused on University-affiliated students in Nepal is extremely limited. Existing Nepalese studies are either restricted to a single campus (Khatiwada, 2025; Bhandari, 2025) or directed at organisational rather than student populations (Adhikari et al., 2025). Adhikari et al. (2026) provide the most proximate study to the present research, but their focus on Oxford College in Gaidakot does not capture the diversity of University's affiliated colleges in the Gandaki Province, where IT and non-IT programs coexist in varied institutional contexts.
 
 **Second**, the comparative dimension—examining differences between IT and non-IT students across all three variables (cybersecurity awareness, digital behavior, and risk mitigation practices)—is underexplored in the Nepalese context. Bognar and Bottyán (2024) performed such a comparison in Hungary and found significant disciplinary differences, and Mai and Tick (2021) compared national cultures, but no published study has examined IT versus non-IT differences within a Nepalese university population. This gap is particularly consequential given that non-IT students constitute the majority of the student body and represent a high-risk, under-served group.
 
@@ -511,7 +511,7 @@ The framework proposes:
 
 ### 2.6.1 Cybersecurity Awareness
 
-For the purposes of this study, **cybersecurity awareness** is defined as the degree to which a student at a Pokhara University-affiliated college demonstrates: (i) knowledge of the nature, types, and mechanisms of common cyber threats; (ii) familiarity with security tools and their proper use; and (iii) understanding of the safe internet practices that reduce exposure to those threats. Operationally, this construct is measured through a Likert-scale survey instrument assessing three sub-dimensions:
+For the purposes of this study, **cybersecurity awareness** is defined as the degree to which a student at a University-affiliated college demonstrates: (i) knowledge of the nature, types, and mechanisms of common cyber threats; (ii) familiarity with security tools and their proper use; and (iii) understanding of the safe internet practices that reduce exposure to those threats. Operationally, this construct is measured through a Likert-scale survey instrument assessing three sub-dimensions:
 
 - **Knowledge of threats**: The respondent's ability to identify, describe, and distinguish between phishing, malware, ransomware, social engineering, and data breaches.
 - **Awareness of security tools**: Familiarity with antivirus software, firewalls, VPNs, two-factor authentication, password managers, and encrypted communications applications.
@@ -1059,7 +1059,7 @@ Ulven, J. B., & Wangen, G. (2021). A systematic review of cybersecurity risks in
 
 ---
 
-**Authors:** [Author Name], School of Information Technology / Faculty of Management, Pokhara University, Nepal
+**Authors:** [Author Name], School of Information Technology / Faculty of Management, University, Nepal
 
 **Correspondence:** [corresponding.email@institution.edu.np]
 
@@ -1069,7 +1069,7 @@ Ulven, J. B., & Wangen, G. (2021). A systematic review of cybersecurity risks in
 
 ## Abstract
 
-Cybersecurity awareness has emerged as a critical determinant of secure digital behavior in an era of escalating cyber threats, yet evidence from developing-country higher education contexts—particularly Nepal—remains limited. This study examines the influence of cybersecurity awareness on digital behavior and risk mitigation practices among university students in Nepal, with a specific focus on differences between students enrolled in Information Technology (IT) and non-IT academic programs. A quantitative cross-sectional survey design was employed, with data collected from 200 undergraduate students at Pokhara University-affiliated colleges using a structured 34-item questionnaire adapted from validated instruments. Descriptive statistics, Pearson correlation, simple linear regression, and independent-samples t-tests were applied. Results indicate that students possess moderate-to-high cybersecurity awareness (M = 3.59, SD = 0.61) but exhibit only moderately secure digital behavior (M = 2.97, SD = 0.27), confirming a knowledge–behavior gap. Cybersecurity awareness was a strong, positive predictor of risk mitigation practices (β = 0.793, R² = .629, p < .001), consistent with Protection Motivation Theory, but exhibited a significant negative relationship with self-reported digital behavior (β = −0.294, p < .001), a counterintuitive finding interpreted through self-evaluative bias theory. IT students scored significantly higher than non-IT students in cybersecurity awareness (d = 0.62) and risk mitigation practices (d = 0.64), with only a modest behavioral advantage (d = 0.38). The findings underscore the need for mandatory, discipline-integrated cybersecurity education in Nepalese universities, with differentiated interventions for IT and non-IT students, and for curriculum reform that goes beyond information transfer to embed practical behavioral competencies.
+Cybersecurity awareness has emerged as a critical determinant of secure digital behavior in an era of escalating cyber threats, yet evidence from developing-country higher education contexts—particularly Nepal—remains limited. This study examines the influence of cybersecurity awareness on digital behavior and risk mitigation practices among university students in Nepal, with a specific focus on differences between students enrolled in Information Technology (IT) and non-IT academic programs. A quantitative cross-sectional survey design was employed, with data collected from 200 undergraduate students at University-affiliated colleges using a structured 34-item questionnaire adapted from validated instruments. Descriptive statistics, Pearson correlation, simple linear regression, and independent-samples t-tests were applied. Results indicate that students possess moderate-to-high cybersecurity awareness (M = 3.59, SD = 0.61) but exhibit only moderately secure digital behavior (M = 2.97, SD = 0.27), confirming a knowledge–behavior gap. Cybersecurity awareness was a strong, positive predictor of risk mitigation practices (β = 0.793, R² = .629, p < .001), consistent with Protection Motivation Theory, but exhibited a significant negative relationship with self-reported digital behavior (β = −0.294, p < .001), a counterintuitive finding interpreted through self-evaluative bias theory. IT students scored significantly higher than non-IT students in cybersecurity awareness (d = 0.62) and risk mitigation practices (d = 0.64), with only a modest behavioral advantage (d = 0.38). The findings underscore the need for mandatory, discipline-integrated cybersecurity education in Nepalese universities, with differentiated interventions for IT and non-IT students, and for curriculum reform that goes beyond information transfer to embed practical behavioral competencies.
 
 **Keywords:** cybersecurity awareness; digital behavior; risk mitigation; university students; Nepal; IT education; knowledge–behavior gap; Protection Motivation Theory
 
@@ -1083,7 +1083,7 @@ A well-documented research gap concerns the relationship between cybersecurity k
 
 Nepal presents a particularly pertinent context. Internet penetration exceeded 70% by 2024, driven largely by mobile broadband adoption, yet cybersecurity awareness infrastructure, policy enforcement, and educational integration remain nascent (Nepal Telecommunications Authority, 2024; Gupta, 2024). Dhungana et al. (2023) documented widespread cybersecurity deficiencies among nearly 900 Nepalese students and teachers, while Bhandari (2025) found that fewer than half of Nepalese university students were aware of their country's legal cybersecurity framework. Critically, no published study has simultaneously examined all three dimensions—awareness, digital behavior, and risk mitigation practices—within a single quantitative framework in Nepal, nor has any study conducted a formal IT vs. non-IT comparative analysis at a major Nepalese university system.
 
-This study addresses these overlapping gaps by answering five research questions: (1) What is the level of cybersecurity awareness among Pokhara University students? (2) What digital behavior patterns do they exhibit? (3) What risk mitigation practices do they adopt? (4) Is there a significant relationship between cybersecurity awareness and digital behavior? (5) Are there significant differences between IT and non-IT students across all three dimensions? The study contributes both empirical evidence for Nepal's higher education policy context and theoretical insight into the conditions under which awareness translates—or fails to translate—into secure behavior.
+This study addresses these overlapping gaps by answering five research questions: (1) What is the level of cybersecurity awareness among University students? (2) What digital behavior patterns do they exhibit? (3) What risk mitigation practices do they adopt? (4) Is there a significant relationship between cybersecurity awareness and digital behavior? (5) Are there significant differences between IT and non-IT students across all three dimensions? The study contributes both empirical evidence for Nepal's higher education policy context and theoretical insight into the conditions under which awareness translates—or fails to translate—into secure behavior.
 
 ---
 
@@ -1131,9 +1131,9 @@ This study employed a **quantitative cross-sectional survey design** combining d
 
 ### 3.2 Population, Sample, and Sampling
 
-The **target population** comprised undergraduate students enrolled at colleges affiliated with Pokhara University, Nepal—a public university established in 1997 with more than 80 affiliated colleges spanning engineering, management, health sciences, education, and humanities, collectively enrolling an estimated 40,000–50,000 students.
+The **target population** comprised undergraduate students enrolled at colleges affiliated with the University, Nepal—a public university established in 1997 with more than 80 affiliated colleges spanning engineering, management, health sciences, education, and humanities, collectively enrolling an estimated 40,000–50,000 students.
 
-A **purposive-convenience sampling** strategy was employed. Purposive criteria required participants to be enrolled in an undergraduate program at a Pokhara University-affiliated college, with secondary stratification distinguishing **IT students** (Bachelor of Information Technology [BIT], Bachelor of Computer Applications [BCA], or equivalent engineering programs) from **non-IT students** (management, humanities, education, or health science programs). Within purposively selected colleges, convenience sampling was used to recruit participants during scheduled class periods and through college-affiliated online platforms.
+A **purposive-convenience sampling** strategy was employed. Purposive criteria required participants to be enrolled in an undergraduate program at a University-affiliated college, with secondary stratification distinguishing **IT students** (Bachelor of Information Technology [BIT], Bachelor of Computer Applications [BCA], or equivalent engineering programs) from **non-IT students** (management, humanities, education, or health science programs). Within purposively selected colleges, convenience sampling was used to recruit participants during scheduled class periods and through college-affiliated online platforms.
 
 A **final sample of 200 usable responses** was achieved from 230 distributed questionnaires (usable response rate: 87.0%). For PLS-SEM and regression analyses, this exceeds the minimum threshold of 100 observations recommended by Hair et al. (2019) and satisfies Cohen's (1992) power requirements for medium effect sizes (f² = 0.15) at α = 0.05.
 
@@ -1251,7 +1251,7 @@ Independent-samples t-tests comparing IT (n = 106) and non-IT (n = 94) students 
 
 ### 5.1 Cybersecurity Awareness: Moderate-to-High With Legal Gaps
 
-The moderate-to-high composite CA score (M = 3.586) places Pokhara University students in a similar range to students surveyed in comparable contexts—above the studies by Khatiwada (2025) and Adhikari et al. (2026), which reported lower scores in single-college Nepalese samples. The pattern of stronger technical awareness and weaker legal-procedural awareness is consistent with Bhandari's (2025) national finding that fewer than half of Nepalese students are aware of their country's cybersecurity legal framework. This gap is particularly consequential: students who cannot identify threats but do not know how to report incidents or seek legal redress are only partially protected. Nepal's National Cyber Security Policy 2023, while progressive, has not been effectively communicated to student populations (Gupta, 2024).
+The moderate-to-high composite CA score (M = 3.586) places University students in a similar range to students surveyed in comparable contexts—above the studies by Khatiwada (2025) and Adhikari et al. (2026), which reported lower scores in single-college Nepalese samples. The pattern of stronger technical awareness and weaker legal-procedural awareness is consistent with Bhandari's (2025) national finding that fewer than half of Nepalese students are aware of their country's cybersecurity legal framework. This gap is particularly consequential: students who cannot identify threats but do not know how to report incidents or seek legal redress are only partially protected. Nepal's National Cyber Security Policy 2023, while progressive, has not been effectively communicated to student populations (Gupta, 2024).
 
 ### 5.2 The Knowledge–Behavior Gap Confirmed
 
@@ -1273,19 +1273,19 @@ The practical implication is clear: investments in cybersecurity awareness educa
 
 ### 5.5 IT vs. Non-IT: Discipline as a Meaningful Moderator
 
-All three comparative hypotheses were supported, confirming that academic discipline is a significant, practically meaningful moderator of cybersecurity outcomes among Pokhara University students.
+All three comparative hypotheses were supported, confirming that academic discipline is a significant, practically meaningful moderator of cybersecurity outcomes among University students.
 
 IT students' significantly higher awareness (d = 0.620, medium) reflects the systematic coverage of information security, networking, and systems management in IT curricula. However, consistent with Mai and Tick (2021) and Adhikari et al. (2026), IT training does not produce proportionally superior behavior: the behavioral advantage of IT students over non-IT students is statistically significant but modest in magnitude (|d| = 0.376). This confirms that IT education improves cybersecurity *knowledge* more effectively than it improves day-to-day digital *behavior*—a gap that curriculum designers must explicitly address by embedding practical, skills-based behavioral components alongside theoretical instruction.
 
-The medium effect size advantage of IT students in risk mitigation (d = 0.641) is consistent with TAM: greater familiarity with and training in security tools increases perceived usefulness and ease of use, thereby facilitating adoption. Non-IT students, representing nearly half the student body at Pokhara University-affiliated colleges, are significantly less equipped in both awareness and protective practices—a finding with urgent implications for curriculum policy, given that these students will enter professional environments where cybersecurity competence is increasingly required across all sectors.
+The medium effect size advantage of IT students in risk mitigation (d = 0.641) is consistent with TAM: greater familiarity with and training in security tools increases perceived usefulness and ease of use, thereby facilitating adoption. Non-IT students, representing nearly half the student body at University-affiliated colleges, are significantly less equipped in both awareness and protective practices—a finding with urgent implications for curriculum policy, given that these students will enter professional environments where cybersecurity competence is increasingly required across all sectors.
 
 ---
 
 ## 6. Conclusions
 
-This study provides the first integrated, multi-dimensional quantitative assessment of cybersecurity awareness, digital behavior, and risk mitigation practices among Pokhara University students in Nepal, with a formal IT vs. non-IT comparative analysis. Six principal conclusions are drawn:
+This study provides the first integrated, multi-dimensional quantitative assessment of cybersecurity awareness, digital behavior, and risk mitigation practices among University students in Nepal, with a formal IT vs. non-IT comparative analysis. Six principal conclusions are drawn:
 
-1. Pokhara University students possess moderate-to-high cybersecurity awareness, with notable deficits in legal and procedural knowledge domains that reflect the limited public communication of Nepal's National Cyber Security Policy 2023.
+1. University students possess moderate-to-high cybersecurity awareness, with notable deficits in legal and procedural knowledge domains that reflect the limited public communication of Nepal's National Cyber Security Policy 2023.
 
 2. The knowledge–behavior gap is empirically confirmed: moderate awareness does not translate into consistently secure digital behavior, with all twelve behavioral items scoring at or below the scale neutral midpoint.
 
@@ -1309,7 +1309,7 @@ This study provides the first integrated, multi-dimensional quantitative assessm
 
 ## Limitations
 
-This study is subject to four principal limitations. First, the sample is drawn from Pokhara University-affiliated colleges using non-probability sampling; findings may not fully generalise to other Nepalese universities or to probability-based national estimates. Second, self-report data are susceptible to social desirability and self-evaluative bias, which may inflate awareness and mitigation scores and affect the direction of the awareness–behavior relationship. Third, the Digital Behavior scale exhibited low internal consistency (α = .064), reflecting genuine multidimensionality rather than poor item quality; composite DB results are interpreted cautiously. Fourth, the cross-sectional design precludes causal inference: longitudinal designs are required to establish temporal precedence between awareness and behavior change.
+This study is subject to four principal limitations. First, the sample is drawn from University-affiliated colleges using non-probability sampling; findings may not fully generalise to other Nepalese universities or to probability-based national estimates. Second, self-report data are susceptible to social desirability and self-evaluative bias, which may inflate awareness and mitigation scores and affect the direction of the awareness–behavior relationship. Third, the Digital Behavior scale exhibited low internal consistency (α = .064), reflecting genuine multidimensionality rather than poor item quality; composite DB results are interpreted cautiously. Fourth, the cross-sectional design precludes causal inference: longitudinal designs are required to establish temporal precedence between awareness and behavior change.
 
 ---
 

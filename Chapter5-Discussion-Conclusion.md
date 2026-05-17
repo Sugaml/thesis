@@ -178,7 +178,7 @@ Age-group analysis indicates significant variation in mitigation practices (F = 
 
 ## 5.8 Conclusion
 
-Based on the updated sample of **204 students**, the study concludes that cybersecurity awareness among Pokhara University-affiliated students is generally high and significantly connected to safer cyber outcomes. Students with higher awareness report stronger mitigation practices and lower risky digital behavior.
+Based on the updated sample of **204 students**, the study concludes that cybersecurity awareness among University-affiliated students is generally high and significantly connected to safer cyber outcomes. Students with higher awareness report stronger mitigation practices and lower risky digital behavior.
 
 However, risky habits persist in specific everyday practices, especially password reuse and unsafe public Wi-Fi behavior. This confirms that awareness alone is not sufficient; sustained behavioral reinforcement is necessary.
 
@@ -204,7 +204,7 @@ This study contributes in five key ways:
 
 1. The study is cross-sectional; causal dynamics over time cannot be fully established.
 2. Data are self-reported and may include social desirability or recall effects.
-3. The sample is limited to Pokhara University-affiliated context; generalization should be cautious.
+3. The sample is limited to University-affiliated context; generalization should be cautious.
 4. Behavior was measured by survey response rather than observed digital actions.
 5. Some subgroups (e.g., under 20, 41 and above, 3rd-year students) remain small, limiting subgroup-level inference.
 
